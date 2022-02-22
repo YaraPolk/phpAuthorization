@@ -1,0 +1,3 @@
+172.26.0.1 - - [22/Feb/2022:09:34:27 +0000] "GET / HTTP/1.1" 200 89196 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.27 Safari/537.36 Edg/99.0.1150.16"
+172.26.0.1 - - [22/Feb/2022:09:34:27 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://sites.local:8083/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.27 Safari/537.36 Edg/99.0.1150.16"
+172.27.0.1 - - [22/Feb/2022:09:42:33 +0000] "GET / HTTP/1.1" 200 89693 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.27 Safari/537.36 Edg/99.0.1150.16"
