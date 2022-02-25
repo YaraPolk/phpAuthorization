@@ -23,7 +23,11 @@ if (!empty($_POST['login']) && !empty($_POST['password'])) {
             $_SESSION['auth'] = true;
             $id = $user['id'];
             $_SESSION['id'] = $id;
-            header("Location: /page.php");
+            if ($user['roles'] === 'admin'){
+                header("Location: /admin.php");
+            } else {
+                header("Location: /page.php");
+            }
         } else {
             echo "Sorry, incorrectly password. Terminal was blocked";
         }

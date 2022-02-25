@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if (!empty($_POST['sing_in'])){
     header("Location: /login.php");
@@ -6,6 +7,11 @@ if (!empty($_POST['sing_in'])){
 
 if (!empty($_POST['sing_up'])){
     header("Location: /new.php");
+}
+
+if(!empty($_SESSION['delete'])){
+    echo $_SESSION['delete'];
+    unset($_SESSION['delete']);
 }
 
 echo '

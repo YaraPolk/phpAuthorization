@@ -113,3 +113,8 @@
 2022/02/25 08:21:57 [notice] 1#1: start worker process 24
 2022/02/25 08:21:57 [notice] 1#1: start worker process 25
 2022/02/25 08:22:07 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/02/25 12:44:57 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
+2022/02/25 12:45:30 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
+2022/02/25 12:45:31 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
+2022/02/25 12:45:32 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
+2022/02/25 12:45:33 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
