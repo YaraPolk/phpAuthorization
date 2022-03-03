@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+$url = $_SERVER['REQUEST_URI'];
+
 require_once 'connection.php';
 
 if(!empty($_SESSION['auth'])) {
@@ -24,7 +26,7 @@ if (!empty($_POST['login']) && !empty($_POST['password'])) {
             $id = $user['id'];
             $_SESSION['id'] = $id;
             if ($user['roles'] === 'admin'){
-                header("Location: /admin.php");
+                header("Location: /admin/admin.php");
             } else {
                 header("Location: /page.php");
             }

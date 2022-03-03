@@ -2,7 +2,9 @@
 
 session_start();
 
-require_once 'connection.php';
+$url = $_SERVER['REQUEST_URI'];
+
+require_once '../connection.php';
 
 
 if (!empty($_POST['logout'])) {
@@ -26,7 +28,7 @@ if (!empty($_POST['edit'])) {
 
     if (!empty($user)) {
         $_SESSION['flash'] = "Sorry this login is already in use";
-        header("Location: /admin.php");
+        header("Location: /admin/admin.php");
     } else {
         $query = "UPDATE users SET login = '$newLogin', roles = '$newRole' WHERE id = '$id'";
         mysqli_query($connection, $query);
@@ -42,7 +44,7 @@ if (!empty($_GET['del'])){
     mysqli_query($connection, $query) or die(mysqli_error($connection));
 
     $_SESSION['flash'] = "Account has been deleted";
-    header("Location: /admin.php");
+    header("Location: /admin//admin.php");
 }
 
 if (!empty($_GET['edit'])){
@@ -68,6 +70,8 @@ if (!empty($_GET['edit'])){
 
 $query = "SELECT * FROM users";
 $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+
+echo $url;
 
 for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);?>
 

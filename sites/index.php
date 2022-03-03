@@ -1,6 +1,19 @@
 <?php
 session_start();
 
+$url = $_SERVER['REQUEST_URI'];
+
+$layout = file_get_contents('layout.php');
+$content = file_get_contents('view' . $url . '.php');
+$titles = require 'title.php';
+
+$title = $titles[$url];
+
+$layout = str_replace('{{ title }}', $title, $layout);
+$result = str_replace('{{ content }}', $content, $layout);
+
+echo $result;
+
 if (!empty($_POST['sing_in'])){
     header("Location: /login.php");
 }

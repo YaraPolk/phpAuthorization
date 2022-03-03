@@ -118,3 +118,2280 @@
 2022/02/25 12:45:31 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
 2022/02/25 12:45:32 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
 2022/02/25 12:45:33 [error] 22#22: *301 open() "/var/www/css/style.css" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /css/style.css HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin.php"
+2022/02/25 14:03:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/25 14:03:20 [notice] 25#25: gracefully shutting down
+2022/02/25 14:03:20 [notice] 23#23: gracefully shutting down
+2022/02/25 14:03:20 [notice] 25#25: exiting
+2022/02/25 14:03:20 [notice] 23#23: exiting
+2022/02/25 14:03:20 [notice] 25#25: exit
+2022/02/25 14:03:20 [notice] 23#23: exit
+2022/02/25 14:03:20 [notice] 24#24: gracefully shutting down
+2022/02/25 14:03:20 [notice] 24#24: exiting
+2022/02/25 14:03:20 [notice] 24#24: exit
+2022/02/25 14:03:20 [notice] 22#22: gracefully shutting down
+2022/02/25 14:03:20 [notice] 22#22: exiting
+2022/02/25 14:03:20 [notice] 22#22: exit
+2022/02/25 14:03:20 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/25 14:03:20 [notice] 1#1: worker process 24 exited with code 0
+2022/02/25 14:03:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/25 14:03:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/25 14:03:20 [notice] 1#1: worker process 23 exited with code 0
+2022/02/25 14:03:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/25 14:03:20 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/25 14:03:20 [notice] 1#1: worker process 22 exited with code 0
+2022/02/25 14:03:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/25 14:03:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/25 14:03:20 [notice] 1#1: worker process 25 exited with code 0
+2022/02/25 14:03:20 [notice] 1#1: exit
+2022/02/28 12:19:55 [notice] 1#1: using the "epoll" event method
+2022/02/28 12:19:55 [notice] 1#1: nginx/1.20.2
+2022/02/28 12:19:55 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/02/28 12:19:55 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/02/28 12:19:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/28 12:19:55 [notice] 1#1: start worker processes
+2022/02/28 12:19:55 [notice] 1#1: start worker process 21
+2022/02/28 12:19:55 [notice] 1#1: start worker process 22
+2022/02/28 12:19:55 [notice] 1#1: start worker process 23
+2022/02/28 12:19:55 [notice] 1#1: start worker process 24
+2022/02/28 12:20:03 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/02/28 12:20:15 [error] 22#22: *1 open() "/var/www/login" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /login HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:21:04 [error] 22#22: *1 open() "/var/www/login" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /login HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:21:59 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:01 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:01 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/test"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/test"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/test"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/test"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:02 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/test"
+2022/02/28 12:22:03 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:03 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/test"
+2022/02/28 12:22:03 [error] 22#22: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:22:03 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/test"
+2022/02/28 12:36:15 [error] 22#22: *39 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:36:16 [error] 22#22: *39 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:36:27 [error] 22#22: *39 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:37:43 [error] 22#22: *39 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:38:22 [error] 22#22: *39 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:41:10 [error] 22#22: *39 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:44:06 [error] 23#23: *67 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:44:12 [error] 23#23: *67 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:44:28 [error] 23#23: *67 open() "/var/www/t" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /t HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:55:44 [error] 22#22: *72 open() "/var/www/layout" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /layout HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:57:05 [error] 22#22: *72 directory index of "/var/www/admin/" is forbidden, client: 172.24.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:57:08 [error] 22#22: *72 open() "/var/www/ad" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /ad HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:57:42 [error] 22#22: *72 open() "/var/www/view/page" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /view/page HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:57:45 [error] 22#22: *72 open() "/var/www/view/page" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /view/page HTTP/1.1", host: "sites.local:8083"
+2022/02/28 12:57:46 [error] 22#22: *72 open() "/var/www/view/page" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /view/page HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:44:25 [error] 22#22: *96 open() "/var/www/erege" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /erege HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:47:28 [error] 23#23: *110 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:48:07 [error] 23#23: *110 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:48:08 [error] 23#23: *110 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:48:09 [error] 23#23: *110 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:48:09 [error] 23#23: *110 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:48:09 [error] 23#23: *110 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:48:09 [error] 23#23: *110 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:48:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/28 13:48:23 [notice] 21#21: gracefully shutting down
+2022/02/28 13:48:23 [notice] 23#23: gracefully shutting down
+2022/02/28 13:48:23 [notice] 21#21: exiting
+2022/02/28 13:48:23 [notice] 21#21: exit
+2022/02/28 13:48:23 [notice] 24#24: gracefully shutting down
+2022/02/28 13:48:23 [notice] 24#24: exiting
+2022/02/28 13:48:23 [notice] 24#24: exit
+2022/02/28 13:48:23 [notice] 22#22: gracefully shutting down
+2022/02/28 13:48:23 [notice] 22#22: exiting
+2022/02/28 13:48:23 [notice] 22#22: exit
+2022/02/28 13:48:24 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/02/28 13:48:24 [notice] 1#1: worker process 21 exited with code 0
+2022/02/28 13:48:24 [notice] 1#1: worker process 22 exited with code 0
+2022/02/28 13:48:24 [notice] 1#1: worker process 24 exited with code 0
+2022/02/28 13:48:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/28 13:48:24 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/28 13:48:24 [notice] 23#23: exiting
+2022/02/28 13:48:24 [notice] 23#23: exit
+2022/02/28 13:48:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/28 13:48:24 [notice] 1#1: worker process 23 exited with code 0
+2022/02/28 13:48:24 [notice] 1#1: exit
+2022/02/28 13:48:35 [emerg] 1#1: unknown directive "/test" in /etc/nginx/conf.d/sites.conf:9
+2022/02/28 13:48:59 [emerg] 1#1: unknown directive "/test" in /etc/nginx/conf.d/sites.conf:9
+2022/02/28 13:49:09 [notice] 1#1: using the "epoll" event method
+2022/02/28 13:49:09 [notice] 1#1: nginx/1.20.2
+2022/02/28 13:49:09 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/02/28 13:49:09 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/02/28 13:49:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/28 13:49:09 [notice] 1#1: start worker processes
+2022/02/28 13:49:09 [notice] 1#1: start worker process 22
+2022/02/28 13:49:09 [notice] 1#1: start worker process 23
+2022/02/28 13:49:09 [notice] 1#1: start worker process 24
+2022/02/28 13:49:09 [notice] 1#1: start worker process 25
+2022/02/28 13:50:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/28 13:50:49 [notice] 22#22: gracefully shutting down
+2022/02/28 13:50:49 [notice] 22#22: exiting
+2022/02/28 13:50:49 [notice] 24#24: gracefully shutting down
+2022/02/28 13:50:49 [notice] 24#24: exiting
+2022/02/28 13:50:49 [notice] 22#22: exit
+2022/02/28 13:50:49 [notice] 24#24: exit
+2022/02/28 13:50:49 [notice] 23#23: gracefully shutting down
+2022/02/28 13:50:49 [notice] 23#23: exiting
+2022/02/28 13:50:49 [notice] 23#23: exit
+2022/02/28 13:50:49 [notice] 25#25: gracefully shutting down
+2022/02/28 13:50:49 [notice] 25#25: exiting
+2022/02/28 13:50:49 [notice] 25#25: exit
+2022/02/28 13:50:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/28 13:50:49 [notice] 1#1: worker process 22 exited with code 0
+2022/02/28 13:50:49 [notice] 1#1: worker process 24 exited with code 0
+2022/02/28 13:50:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/28 13:50:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/28 13:50:49 [notice] 1#1: worker process 25 exited with code 0
+2022/02/28 13:50:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/28 13:50:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/28 13:50:49 [notice] 1#1: worker process 23 exited with code 0
+2022/02/28 13:50:49 [notice] 1#1: exit
+2022/02/28 13:50:55 [notice] 1#1: using the "epoll" event method
+2022/02/28 13:50:55 [notice] 1#1: nginx/1.20.2
+2022/02/28 13:50:55 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/02/28 13:50:55 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/02/28 13:50:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/28 13:50:55 [notice] 1#1: start worker processes
+2022/02/28 13:50:55 [notice] 1#1: start worker process 23
+2022/02/28 13:50:55 [notice] 1#1: start worker process 24
+2022/02/28 13:50:55 [notice] 1#1: start worker process 25
+2022/02/28 13:50:55 [notice] 1#1: start worker process 26
+2022/02/28 13:52:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/28 13:52:50 [notice] 23#23: gracefully shutting down
+2022/02/28 13:52:50 [notice] 24#24: gracefully shutting down
+2022/02/28 13:52:50 [notice] 23#23: exiting
+2022/02/28 13:52:50 [notice] 24#24: exiting
+2022/02/28 13:52:50 [notice] 24#24: exit
+2022/02/28 13:52:50 [notice] 23#23: exit
+2022/02/28 13:52:50 [notice] 26#26: gracefully shutting down
+2022/02/28 13:52:50 [notice] 25#25: gracefully shutting down
+2022/02/28 13:52:50 [notice] 25#25: exiting
+2022/02/28 13:52:50 [notice] 25#25: exit
+2022/02/28 13:52:50 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/28 13:52:50 [notice] 1#1: worker process 23 exited with code 0
+2022/02/28 13:52:50 [notice] 1#1: worker process 24 exited with code 0
+2022/02/28 13:52:50 [notice] 1#1: worker process 25 exited with code 0
+2022/02/28 13:52:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/28 13:52:51 [notice] 26#26: exiting
+2022/02/28 13:52:51 [notice] 26#26: exit
+2022/02/28 13:52:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/28 13:52:51 [notice] 1#1: worker process 26 exited with code 0
+2022/02/28 13:52:51 [notice] 1#1: exit
+2022/02/28 13:52:57 [notice] 1#1: using the "epoll" event method
+2022/02/28 13:52:57 [notice] 1#1: nginx/1.20.2
+2022/02/28 13:52:57 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/02/28 13:52:57 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/02/28 13:52:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/28 13:52:57 [notice] 1#1: start worker processes
+2022/02/28 13:52:57 [notice] 1#1: start worker process 24
+2022/02/28 13:52:57 [notice] 1#1: start worker process 25
+2022/02/28 13:52:57 [notice] 1#1: start worker process 26
+2022/02/28 13:52:57 [notice] 1#1: start worker process 27
+2022/02/28 13:53:03 [error] 25#25: *2 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/02/28 13:53:08 [error] 25#25: *2 open() "/var/www/test" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/03/02 14:04:33 [error] 27#27: *5 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 14:08:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:08:04 [notice] 25#25: gracefully shutting down
+2022/03/02 14:08:04 [notice] 26#26: gracefully shutting down
+2022/03/02 14:08:04 [notice] 26#26: exiting
+2022/03/02 14:08:04 [notice] 25#25: exiting
+2022/03/02 14:08:04 [notice] 26#26: exit
+2022/03/02 14:08:04 [notice] 25#25: exit
+2022/03/02 14:08:04 [notice] 24#24: gracefully shutting down
+2022/03/02 14:08:04 [notice] 24#24: exiting
+2022/03/02 14:08:04 [notice] 24#24: exit
+2022/03/02 14:08:04 [notice] 27#27: gracefully shutting down
+2022/03/02 14:08:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 14:08:04 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 14:08:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:08:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:08:04 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:08:04 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:08:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:08:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:08:06 [notice] 27#27: exiting
+2022/03/02 14:08:06 [notice] 27#27: exit
+2022/03/02 14:08:06 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/02 14:08:06 [notice] 1#1: worker process 27 exited with code 0
+2022/03/02 14:08:06 [notice] 1#1: exit
+2022/03/02 14:08:12 [emerg] 1#1: open() "/etc/nginx/mine.types" failed (2: No such file or directory) in /etc/nginx/conf.d/sites.conf:1
+2022/03/02 14:08:52 [emerg] 1#1: open() "/etc/nginx/mine.types" failed (2: No such file or directory) in /etc/nginx/conf.d/sites.conf:1
+2022/03/02 14:09:52 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:09:52 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:09:52 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:09:52 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:09:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:09:52 [notice] 1#1: start worker processes
+2022/03/02 14:09:52 [notice] 1#1: start worker process 22
+2022/03/02 14:09:52 [notice] 1#1: start worker process 23
+2022/03/02 14:09:52 [notice] 1#1: start worker process 24
+2022/03/02 14:09:52 [notice] 1#1: start worker process 25
+2022/03/02 14:10:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:10:06 [notice] 24#24: gracefully shutting down
+2022/03/02 14:10:06 [notice] 25#25: gracefully shutting down
+2022/03/02 14:10:06 [notice] 24#24: exiting
+2022/03/02 14:10:06 [notice] 23#23: gracefully shutting down
+2022/03/02 14:10:06 [notice] 25#25: exiting
+2022/03/02 14:10:06 [notice] 23#23: exiting
+2022/03/02 14:10:06 [notice] 24#24: exit
+2022/03/02 14:10:06 [notice] 25#25: exit
+2022/03/02 14:10:06 [notice] 23#23: exit
+2022/03/02 14:10:06 [notice] 22#22: gracefully shutting down
+2022/03/02 14:10:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:10:06 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:10:06 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:10:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:10:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:10:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:10:06 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:10:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:10:12 [notice] 22#22: exiting
+2022/03/02 14:10:12 [notice] 22#22: exit
+2022/03/02 14:10:12 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:10:12 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:10:12 [notice] 1#1: exit
+2022/03/02 14:10:13 [emerg] 1#1: unknown directive "/test" in /etc/nginx/conf.d/sites.conf:9
+2022/03/02 14:10:51 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/sites.conf:1
+2022/03/02 14:12:25 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/sites.conf:1
+2022/03/02 14:12:49 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:12:49 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:12:49 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:12:49 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:12:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:12:49 [notice] 1#1: start worker processes
+2022/03/02 14:12:49 [notice] 1#1: start worker process 22
+2022/03/02 14:12:49 [notice] 1#1: start worker process 23
+2022/03/02 14:12:49 [notice] 1#1: start worker process 24
+2022/03/02 14:12:49 [notice] 1#1: start worker process 25
+2022/03/02 14:14:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:14:52 [notice] 22#22: gracefully shutting down
+2022/03/02 14:14:52 [notice] 23#23: gracefully shutting down
+2022/03/02 14:14:52 [notice] 22#22: exiting
+2022/03/02 14:14:52 [notice] 24#24: gracefully shutting down
+2022/03/02 14:14:52 [notice] 23#23: exiting
+2022/03/02 14:14:52 [notice] 24#24: exiting
+2022/03/02 14:14:52 [notice] 22#22: exit
+2022/03/02 14:14:52 [notice] 23#23: exit
+2022/03/02 14:14:52 [notice] 24#24: exit
+2022/03/02 14:14:52 [notice] 25#25: gracefully shutting down
+2022/03/02 14:14:52 [notice] 25#25: exiting
+2022/03/02 14:14:52 [notice] 25#25: exit
+2022/03/02 14:14:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:14:52 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:14:52 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:14:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:14:52 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:14:52 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:14:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:14:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:14:52 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:14:52 [notice] 1#1: exit
+2022/03/02 14:14:52 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:14:52 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:14:52 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:14:52 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:14:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:14:52 [notice] 1#1: start worker processes
+2022/03/02 14:14:52 [notice] 1#1: start worker process 24
+2022/03/02 14:14:52 [notice] 1#1: start worker process 25
+2022/03/02 14:14:52 [notice] 1#1: start worker process 26
+2022/03/02 14:14:52 [notice] 1#1: start worker process 27
+2022/03/02 14:15:00 [error] 24#24: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/03/02 14:15:11 [error] 24#24: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/03/02 14:15:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:15:47 [notice] 24#24: gracefully shutting down
+2022/03/02 14:15:47 [notice] 25#25: gracefully shutting down
+2022/03/02 14:15:47 [notice] 27#27: gracefully shutting down
+2022/03/02 14:15:47 [notice] 25#25: exiting
+2022/03/02 14:15:47 [notice] 27#27: exiting
+2022/03/02 14:15:47 [notice] 25#25: exit
+2022/03/02 14:15:47 [notice] 27#27: exit
+2022/03/02 14:15:47 [notice] 26#26: gracefully shutting down
+2022/03/02 14:15:47 [notice] 26#26: exiting
+2022/03/02 14:15:47 [notice] 26#26: exit
+2022/03/02 14:15:47 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 14:15:47 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 14:15:47 [notice] 1#1: worker process 27 exited with code 0
+2022/03/02 14:15:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:15:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:15:47 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:15:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:15:54 [notice] 24#24: exiting
+2022/03/02 14:15:54 [notice] 24#24: exit
+2022/03/02 14:15:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:15:55 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:15:55 [notice] 1#1: exit
+2022/03/02 14:15:55 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:15:55 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:15:55 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:15:55 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:15:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:15:55 [notice] 1#1: start worker processes
+2022/03/02 14:15:55 [notice] 1#1: start worker process 22
+2022/03/02 14:15:55 [notice] 1#1: start worker process 23
+2022/03/02 14:15:55 [notice] 1#1: start worker process 24
+2022/03/02 14:15:55 [notice] 1#1: start worker process 25
+2022/03/02 14:16:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:16:45 [notice] 23#23: gracefully shutting down
+2022/03/02 14:16:45 [notice] 22#22: gracefully shutting down
+2022/03/02 14:16:45 [notice] 24#24: gracefully shutting down
+2022/03/02 14:16:45 [notice] 25#25: gracefully shutting down
+2022/03/02 14:16:45 [notice] 24#24: exiting
+2022/03/02 14:16:45 [notice] 25#25: exiting
+2022/03/02 14:16:45 [notice] 22#22: exiting
+2022/03/02 14:16:45 [notice] 24#24: exit
+2022/03/02 14:16:45 [notice] 25#25: exit
+2022/03/02 14:16:45 [notice] 22#22: exit
+2022/03/02 14:16:45 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:16:45 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:16:45 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:16:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:16:45 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:16:45 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:16:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:16:55 [emerg] 1#1: open() "/etc/nginx/mine.types" failed (2: No such file or directory) in /etc/nginx/conf.d/sites.conf:4
+2022/03/02 14:17:13 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:17:13 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:17:13 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:17:13 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:17:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:17:13 [notice] 1#1: start worker processes
+2022/03/02 14:17:13 [notice] 1#1: start worker process 22
+2022/03/02 14:17:13 [notice] 1#1: start worker process 23
+2022/03/02 14:17:13 [notice] 1#1: start worker process 24
+2022/03/02 14:17:13 [notice] 1#1: start worker process 25
+2022/03/02 14:17:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:17:59 [notice] 22#22: gracefully shutting down
+2022/03/02 14:17:59 [notice] 24#24: gracefully shutting down
+2022/03/02 14:17:59 [notice] 23#23: gracefully shutting down
+2022/03/02 14:17:59 [notice] 22#22: exiting
+2022/03/02 14:17:59 [notice] 24#24: exiting
+2022/03/02 14:17:59 [notice] 23#23: exiting
+2022/03/02 14:17:59 [notice] 22#22: exit
+2022/03/02 14:17:59 [notice] 24#24: exit
+2022/03/02 14:17:59 [notice] 23#23: exit
+2022/03/02 14:17:59 [notice] 25#25: gracefully shutting down
+2022/03/02 14:17:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:17:59 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:17:59 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:17:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:17:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:17:59 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:17:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:18:06 [notice] 25#25: exiting
+2022/03/02 14:18:06 [notice] 25#25: exit
+2022/03/02 14:18:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:18:06 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:18:06 [notice] 1#1: exit
+2022/03/02 14:18:07 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:18:07 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:18:07 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:18:07 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:18:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:18:07 [notice] 1#1: start worker processes
+2022/03/02 14:18:07 [notice] 1#1: start worker process 23
+2022/03/02 14:18:07 [notice] 1#1: start worker process 24
+2022/03/02 14:18:07 [notice] 1#1: start worker process 25
+2022/03/02 14:18:07 [notice] 1#1: start worker process 26
+2022/03/02 14:18:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:18:27 [notice] 23#23: gracefully shutting down
+2022/03/02 14:18:27 [notice] 24#24: gracefully shutting down
+2022/03/02 14:18:27 [notice] 26#26: gracefully shutting down
+2022/03/02 14:18:27 [notice] 23#23: exiting
+2022/03/02 14:18:27 [notice] 24#24: exiting
+2022/03/02 14:18:27 [notice] 25#25: gracefully shutting down
+2022/03/02 14:18:27 [notice] 25#25: exiting
+2022/03/02 14:18:27 [notice] 24#24: exit
+2022/03/02 14:18:27 [notice] 23#23: exit
+2022/03/02 14:18:27 [notice] 25#25: exit
+2022/03/02 14:18:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:18:27 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:18:27 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:18:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:18:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:18:27 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:18:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:18:38 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:18:38 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:18:38 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:18:38 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:18:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:18:38 [notice] 1#1: start worker processes
+2022/03/02 14:18:38 [notice] 1#1: start worker process 21
+2022/03/02 14:18:38 [notice] 1#1: start worker process 22
+2022/03/02 14:18:38 [notice] 1#1: start worker process 23
+2022/03/02 14:18:38 [notice] 1#1: start worker process 24
+2022/03/02 14:19:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:19:01 [notice] 24#24: gracefully shutting down
+2022/03/02 14:19:01 [notice] 24#24: exiting
+2022/03/02 14:19:01 [notice] 23#23: gracefully shutting down
+2022/03/02 14:19:01 [notice] 23#23: exiting
+2022/03/02 14:19:01 [notice] 24#24: exit
+2022/03/02 14:19:01 [notice] 23#23: exit
+2022/03/02 14:19:01 [notice] 21#21: gracefully shutting down
+2022/03/02 14:19:01 [notice] 21#21: exiting
+2022/03/02 14:19:01 [notice] 21#21: exit
+2022/03/02 14:19:01 [notice] 22#22: gracefully shutting down
+2022/03/02 14:19:01 [notice] 22#22: exiting
+2022/03/02 14:19:01 [notice] 22#22: exit
+2022/03/02 14:19:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:19:01 [notice] 1#1: worker process 21 exited with code 0
+2022/03/02 14:19:01 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:19:01 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:19:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:19:01 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:19:01 [notice] 1#1: exit
+2022/03/02 14:19:01 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:19:01 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:19:01 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:19:01 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:19:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:19:01 [notice] 1#1: start worker processes
+2022/03/02 14:19:01 [notice] 1#1: start worker process 22
+2022/03/02 14:19:01 [notice] 1#1: start worker process 23
+2022/03/02 14:19:01 [notice] 1#1: start worker process 24
+2022/03/02 14:19:01 [notice] 1#1: start worker process 25
+2022/03/02 14:20:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:20:05 [notice] 22#22: gracefully shutting down
+2022/03/02 14:20:05 [notice] 24#24: gracefully shutting down
+2022/03/02 14:20:05 [notice] 23#23: gracefully shutting down
+2022/03/02 14:20:05 [notice] 22#22: exiting
+2022/03/02 14:20:05 [notice] 23#23: exiting
+2022/03/02 14:20:05 [notice] 22#22: exit
+2022/03/02 14:20:05 [notice] 23#23: exit
+2022/03/02 14:20:05 [notice] 25#25: gracefully shutting down
+2022/03/02 14:20:05 [notice] 25#25: exiting
+2022/03/02 14:20:05 [notice] 25#25: exit
+2022/03/02 14:20:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:20:05 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:20:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:20:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:20:05 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:20:05 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:20:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:20:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:20:12 [notice] 24#24: exiting
+2022/03/02 14:20:12 [notice] 24#24: exit
+2022/03/02 14:20:12 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:20:12 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:20:12 [notice] 1#1: exit
+2022/03/02 14:20:13 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:20:13 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:20:13 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:20:13 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:20:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:20:13 [notice] 1#1: start worker processes
+2022/03/02 14:20:13 [notice] 1#1: start worker process 26
+2022/03/02 14:20:13 [notice] 1#1: start worker process 27
+2022/03/02 14:20:13 [notice] 1#1: start worker process 28
+2022/03/02 14:20:13 [notice] 1#1: start worker process 29
+2022/03/02 14:20:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:20:33 [notice] 26#26: gracefully shutting down
+2022/03/02 14:20:33 [notice] 28#28: gracefully shutting down
+2022/03/02 14:20:33 [notice] 29#29: gracefully shutting down
+2022/03/02 14:20:33 [notice] 28#28: exiting
+2022/03/02 14:20:33 [notice] 29#29: exiting
+2022/03/02 14:20:33 [notice] 29#29: exit
+2022/03/02 14:20:33 [notice] 28#28: exit
+2022/03/02 14:20:33 [notice] 27#27: gracefully shutting down
+2022/03/02 14:20:33 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/03/02 14:20:33 [notice] 1#1: worker process 28 exited with code 0
+2022/03/02 14:20:33 [notice] 1#1: worker process 29 exited with code 0
+2022/03/02 14:20:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:20:44 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:20:44 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:20:44 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:20:44 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:20:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:20:44 [notice] 1#1: start worker processes
+2022/03/02 14:20:44 [notice] 1#1: start worker process 22
+2022/03/02 14:20:44 [notice] 1#1: start worker process 23
+2022/03/02 14:20:44 [notice] 1#1: start worker process 24
+2022/03/02 14:20:44 [notice] 1#1: start worker process 25
+2022/03/02 14:21:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:21:08 [notice] 22#22: gracefully shutting down
+2022/03/02 14:21:08 [notice] 25#25: gracefully shutting down
+2022/03/02 14:21:08 [notice] 23#23: gracefully shutting down
+2022/03/02 14:21:08 [notice] 25#25: exiting
+2022/03/02 14:21:08 [notice] 23#23: exiting
+2022/03/02 14:21:08 [notice] 25#25: exit
+2022/03/02 14:21:08 [notice] 23#23: exit
+2022/03/02 14:21:08 [notice] 24#24: gracefully shutting down
+2022/03/02 14:21:08 [notice] 24#24: exiting
+2022/03/02 14:21:08 [notice] 24#24: exit
+2022/03/02 14:21:08 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:21:08 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:21:08 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:21:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:21:08 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:21:08 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:21:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:21:19 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:21:19 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:21:19 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:21:19 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:21:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:21:19 [notice] 1#1: start worker processes
+2022/03/02 14:21:19 [notice] 1#1: start worker process 24
+2022/03/02 14:21:19 [notice] 1#1: start worker process 25
+2022/03/02 14:21:19 [notice] 1#1: start worker process 26
+2022/03/02 14:21:19 [notice] 1#1: start worker process 27
+2022/03/02 14:21:37 [error] 26#26: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 14:21:38 [error] 26#26: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 14:22:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:22:06 [notice] 24#24: gracefully shutting down
+2022/03/02 14:22:06 [notice] 25#25: gracefully shutting down
+2022/03/02 14:22:06 [notice] 26#26: gracefully shutting down
+2022/03/02 14:22:06 [notice] 27#27: gracefully shutting down
+2022/03/02 14:22:06 [notice] 24#24: exiting
+2022/03/02 14:22:06 [notice] 25#25: exiting
+2022/03/02 14:22:06 [notice] 27#27: exiting
+2022/03/02 14:22:06 [notice] 25#25: exit
+2022/03/02 14:22:06 [notice] 24#24: exit
+2022/03/02 14:22:06 [notice] 27#27: exit
+2022/03/02 14:22:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:22:06 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:22:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:22:06 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/02 14:22:06 [notice] 1#1: worker process 27 exited with code 0
+2022/03/02 14:22:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:22:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:22:06 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:22:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:22:17 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:22:17 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:22:17 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:22:17 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:22:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:22:17 [notice] 1#1: start worker processes
+2022/03/02 14:22:17 [notice] 1#1: start worker process 22
+2022/03/02 14:22:17 [notice] 1#1: start worker process 23
+2022/03/02 14:22:17 [notice] 1#1: start worker process 24
+2022/03/02 14:22:17 [notice] 1#1: start worker process 25
+2022/03/02 14:22:30 [error] 22#22: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 14:22:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:22:40 [notice] 24#24: gracefully shutting down
+2022/03/02 14:22:40 [notice] 23#23: gracefully shutting down
+2022/03/02 14:22:40 [notice] 24#24: exiting
+2022/03/02 14:22:40 [notice] 25#25: gracefully shutting down
+2022/03/02 14:22:40 [notice] 25#25: exiting
+2022/03/02 14:22:40 [notice] 22#22: gracefully shutting down
+2022/03/02 14:22:40 [notice] 22#22: exiting
+2022/03/02 14:22:40 [notice] 24#24: exit
+2022/03/02 14:22:40 [notice] 25#25: exit
+2022/03/02 14:22:40 [notice] 22#22: exit
+2022/03/02 14:22:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:22:40 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:22:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:22:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:22:40 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:22:40 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:22:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:22:45 [notice] 23#23: exiting
+2022/03/02 14:22:45 [notice] 23#23: exit
+2022/03/02 14:22:45 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:22:45 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:22:45 [notice] 1#1: exit
+2022/03/02 14:22:46 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:22:46 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:22:46 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:22:46 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:22:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:22:46 [notice] 1#1: start worker processes
+2022/03/02 14:22:46 [notice] 1#1: start worker process 22
+2022/03/02 14:22:46 [notice] 1#1: start worker process 23
+2022/03/02 14:22:46 [notice] 1#1: start worker process 24
+2022/03/02 14:22:46 [notice] 1#1: start worker process 25
+2022/03/02 14:22:47 [error] 22#22: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 14:23:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:23:16 [notice] 24#24: gracefully shutting down
+2022/03/02 14:23:16 [notice] 22#22: gracefully shutting down
+2022/03/02 14:23:16 [notice] 25#25: gracefully shutting down
+2022/03/02 14:23:16 [notice] 24#24: exiting
+2022/03/02 14:23:16 [notice] 25#25: exiting
+2022/03/02 14:23:16 [notice] 23#23: gracefully shutting down
+2022/03/02 14:23:16 [notice] 23#23: exiting
+2022/03/02 14:23:16 [notice] 24#24: exit
+2022/03/02 14:23:16 [notice] 25#25: exit
+2022/03/02 14:23:16 [notice] 23#23: exit
+2022/03/02 14:23:17 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:23:17 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:23:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:23:17 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:23:17 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:23:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:23:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:23:17 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:23:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:23:27 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:23:27 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:23:27 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:23:27 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:23:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:23:27 [notice] 1#1: start worker processes
+2022/03/02 14:23:27 [notice] 1#1: start worker process 22
+2022/03/02 14:23:27 [notice] 1#1: start worker process 23
+2022/03/02 14:23:27 [notice] 1#1: start worker process 24
+2022/03/02 14:23:27 [notice] 1#1: start worker process 25
+2022/03/02 14:28:29 [error] 23#23: *3 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/admin/admin.php"
+2022/03/02 14:28:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:28:56 [notice] 25#25: gracefully shutting down
+2022/03/02 14:28:56 [notice] 25#25: exiting
+2022/03/02 14:28:56 [notice] 25#25: exit
+2022/03/02 14:28:56 [notice] 22#22: gracefully shutting down
+2022/03/02 14:28:56 [notice] 22#22: exiting
+2022/03/02 14:28:56 [notice] 22#22: exit
+2022/03/02 14:28:56 [notice] 23#23: gracefully shutting down
+2022/03/02 14:28:56 [notice] 24#24: gracefully shutting down
+2022/03/02 14:28:56 [notice] 24#24: exiting
+2022/03/02 14:28:56 [notice] 24#24: exit
+2022/03/02 14:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:28:56 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:28:56 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:28:56 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:29:07 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:29:07 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:29:07 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:29:07 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:29:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:29:07 [notice] 1#1: start worker processes
+2022/03/02 14:29:07 [notice] 1#1: start worker process 22
+2022/03/02 14:29:07 [notice] 1#1: start worker process 23
+2022/03/02 14:29:07 [notice] 1#1: start worker process 24
+2022/03/02 14:29:07 [notice] 1#1: start worker process 25
+2022/03/02 14:29:54 [error] 23#23: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 14:35:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:35:04 [notice] 24#24: gracefully shutting down
+2022/03/02 14:35:04 [notice] 25#25: gracefully shutting down
+2022/03/02 14:35:04 [notice] 24#24: exiting
+2022/03/02 14:35:04 [notice] 25#25: exiting
+2022/03/02 14:35:04 [notice] 25#25: exit
+2022/03/02 14:35:04 [notice] 24#24: exit
+2022/03/02 14:35:04 [notice] 22#22: gracefully shutting down
+2022/03/02 14:35:04 [notice] 22#22: exiting
+2022/03/02 14:35:04 [notice] 22#22: exit
+2022/03/02 14:35:04 [notice] 23#23: gracefully shutting down
+2022/03/02 14:35:04 [notice] 23#23: exiting
+2022/03/02 14:35:04 [notice] 23#23: exit
+2022/03/02 14:35:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:35:04 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:35:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:35:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:35:04 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:35:04 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:35:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:35:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:35:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:35:04 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:35:04 [notice] 1#1: exit
+2022/03/02 14:35:04 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:35:04 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:35:04 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:35:04 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:35:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:35:04 [notice] 1#1: start worker processes
+2022/03/02 14:35:04 [notice] 1#1: start worker process 22
+2022/03/02 14:35:04 [notice] 1#1: start worker process 23
+2022/03/02 14:35:04 [notice] 1#1: start worker process 24
+2022/03/02 14:35:04 [notice] 1#1: start worker process 25
+2022/03/02 14:35:16 [error] 25#25: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 14:36:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:36:02 [notice] 22#22: gracefully shutting down
+2022/03/02 14:36:02 [notice] 24#24: gracefully shutting down
+2022/03/02 14:36:02 [notice] 22#22: exiting
+2022/03/02 14:36:02 [notice] 24#24: exiting
+2022/03/02 14:36:02 [notice] 24#24: exit
+2022/03/02 14:36:02 [notice] 22#22: exit
+2022/03/02 14:36:02 [notice] 23#23: gracefully shutting down
+2022/03/02 14:36:02 [notice] 23#23: exiting
+2022/03/02 14:36:02 [notice] 23#23: exit
+2022/03/02 14:36:02 [notice] 25#25: gracefully shutting down
+2022/03/02 14:36:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:36:02 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:36:02 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:36:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:36:02 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:36:02 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:36:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:36:10 [notice] 25#25: exiting
+2022/03/02 14:36:10 [notice] 25#25: exit
+2022/03/02 14:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:36:10 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:36:10 [notice] 1#1: exit
+2022/03/02 14:36:10 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:36:10 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:36:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:36:10 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:36:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:36:10 [notice] 1#1: start worker processes
+2022/03/02 14:36:10 [notice] 1#1: start worker process 22
+2022/03/02 14:36:10 [notice] 1#1: start worker process 23
+2022/03/02 14:36:10 [notice] 1#1: start worker process 24
+2022/03/02 14:36:10 [notice] 1#1: start worker process 25
+2022/03/02 14:39:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:39:12 [notice] 23#23: gracefully shutting down
+2022/03/02 14:39:12 [notice] 22#22: gracefully shutting down
+2022/03/02 14:39:12 [notice] 25#25: gracefully shutting down
+2022/03/02 14:39:12 [notice] 23#23: exiting
+2022/03/02 14:39:12 [notice] 22#22: exiting
+2022/03/02 14:39:12 [notice] 25#25: exiting
+2022/03/02 14:39:12 [notice] 22#22: exit
+2022/03/02 14:39:12 [notice] 23#23: exit
+2022/03/02 14:39:12 [notice] 25#25: exit
+2022/03/02 14:39:12 [notice] 24#24: gracefully shutting down
+2022/03/02 14:39:12 [notice] 24#24: exiting
+2022/03/02 14:39:12 [notice] 24#24: exit
+2022/03/02 14:39:12 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:39:12 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:39:12 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:39:12 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:39:12 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:39:12 [notice] 1#1: exit
+2022/03/02 14:39:12 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:39:12 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:39:12 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:39:12 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:39:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:39:12 [notice] 1#1: start worker processes
+2022/03/02 14:39:12 [notice] 1#1: start worker process 22
+2022/03/02 14:39:12 [notice] 1#1: start worker process 23
+2022/03/02 14:39:12 [notice] 1#1: start worker process 24
+2022/03/02 14:39:12 [notice] 1#1: start worker process 25
+2022/03/02 14:39:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:39:35 [notice] 22#22: gracefully shutting down
+2022/03/02 14:39:35 [notice] 24#24: gracefully shutting down
+2022/03/02 14:39:35 [notice] 25#25: gracefully shutting down
+2022/03/02 14:39:35 [notice] 22#22: exiting
+2022/03/02 14:39:35 [notice] 24#24: exiting
+2022/03/02 14:39:35 [notice] 25#25: exiting
+2022/03/02 14:39:35 [notice] 24#24: exit
+2022/03/02 14:39:35 [notice] 22#22: exit
+2022/03/02 14:39:35 [notice] 25#25: exit
+2022/03/02 14:39:35 [notice] 23#23: gracefully shutting down
+2022/03/02 14:39:35 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:39:35 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:39:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:39:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:39:35 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:39:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:39:35 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:39:35 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:39:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:39:45 [emerg] 1#1: invalid location modifier "*~" in /etc/nginx/conf.d/sites.conf:8
+2022/03/02 14:41:09 [emerg] 1#1: invalid location modifier "*~" in /etc/nginx/conf.d/sites.conf:8
+2022/03/02 14:42:08 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:42:08 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:42:08 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:42:08 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:42:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:42:08 [notice] 1#1: start worker processes
+2022/03/02 14:42:08 [notice] 1#1: start worker process 23
+2022/03/02 14:42:08 [notice] 1#1: start worker process 24
+2022/03/02 14:42:08 [notice] 1#1: start worker process 25
+2022/03/02 14:42:08 [notice] 1#1: start worker process 26
+2022/03/02 14:42:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:42:23 [notice] 26#26: gracefully shutting down
+2022/03/02 14:42:23 [notice] 23#23: gracefully shutting down
+2022/03/02 14:42:23 [notice] 23#23: exiting
+2022/03/02 14:42:23 [notice] 23#23: exit
+2022/03/02 14:42:23 [notice] 24#24: gracefully shutting down
+2022/03/02 14:42:23 [notice] 24#24: exiting
+2022/03/02 14:42:23 [notice] 24#24: exit
+2022/03/02 14:42:23 [notice] 25#25: gracefully shutting down
+2022/03/02 14:42:23 [notice] 25#25: exiting
+2022/03/02 14:42:23 [notice] 25#25: exit
+2022/03/02 14:42:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:42:23 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:42:23 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:42:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:42:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:42:23 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:42:23 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:42:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:42:34 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:42:34 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:42:34 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:42:34 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:42:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:42:34 [notice] 1#1: start worker processes
+2022/03/02 14:42:34 [notice] 1#1: start worker process 22
+2022/03/02 14:42:34 [notice] 1#1: start worker process 23
+2022/03/02 14:42:34 [notice] 1#1: start worker process 24
+2022/03/02 14:42:34 [notice] 1#1: start worker process 25
+2022/03/02 14:42:35 [error] 25#25: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/login.php"
+2022/03/02 14:45:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:45:09 [notice] 23#23: gracefully shutting down
+2022/03/02 14:45:09 [notice] 24#24: gracefully shutting down
+2022/03/02 14:45:09 [notice] 25#25: gracefully shutting down
+2022/03/02 14:45:09 [notice] 23#23: exiting
+2022/03/02 14:45:09 [notice] 24#24: exiting
+2022/03/02 14:45:09 [notice] 25#25: exiting
+2022/03/02 14:45:09 [notice] 22#22: gracefully shutting down
+2022/03/02 14:45:09 [notice] 22#22: exiting
+2022/03/02 14:45:09 [notice] 25#25: exit
+2022/03/02 14:45:09 [notice] 23#23: exit
+2022/03/02 14:45:09 [notice] 24#24: exit
+2022/03/02 14:45:09 [notice] 22#22: exit
+2022/03/02 14:45:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:45:09 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:45:09 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:45:09 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:45:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:45:09 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:45:09 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:45:09 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:45:09 [notice] 1#1: exit
+2022/03/02 14:45:10 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:45:10 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:45:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:45:10 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:45:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:45:10 [notice] 1#1: start worker processes
+2022/03/02 14:45:10 [notice] 1#1: start worker process 22
+2022/03/02 14:45:10 [notice] 1#1: start worker process 23
+2022/03/02 14:45:10 [notice] 1#1: start worker process 24
+2022/03/02 14:45:10 [notice] 1#1: start worker process 25
+2022/03/02 14:45:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:45:34 [notice] 23#23: gracefully shutting down
+2022/03/02 14:45:34 [notice] 22#22: gracefully shutting down
+2022/03/02 14:45:34 [notice] 22#22: exiting
+2022/03/02 14:45:34 [notice] 25#25: gracefully shutting down
+2022/03/02 14:45:34 [notice] 25#25: exiting
+2022/03/02 14:45:34 [notice] 22#22: exit
+2022/03/02 14:45:34 [notice] 25#25: exit
+2022/03/02 14:45:34 [notice] 24#24: gracefully shutting down
+2022/03/02 14:45:34 [notice] 24#24: exiting
+2022/03/02 14:45:34 [notice] 24#24: exit
+2022/03/02 14:45:34 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:45:34 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:45:34 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:45:34 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:45:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:45:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:45:45 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:45:45 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:45:45 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:45:45 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:45:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:45:45 [notice] 1#1: start worker processes
+2022/03/02 14:45:45 [notice] 1#1: start worker process 23
+2022/03/02 14:45:45 [notice] 1#1: start worker process 24
+2022/03/02 14:45:45 [notice] 1#1: start worker process 25
+2022/03/02 14:45:45 [notice] 1#1: start worker process 26
+2022/03/02 14:46:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:46:18 [notice] 25#25: gracefully shutting down
+2022/03/02 14:46:18 [notice] 23#23: gracefully shutting down
+2022/03/02 14:46:18 [notice] 23#23: exiting
+2022/03/02 14:46:18 [notice] 23#23: exit
+2022/03/02 14:46:18 [notice] 24#24: gracefully shutting down
+2022/03/02 14:46:18 [notice] 24#24: exiting
+2022/03/02 14:46:18 [notice] 24#24: exit
+2022/03/02 14:46:18 [notice] 26#26: gracefully shutting down
+2022/03/02 14:46:18 [notice] 26#26: exiting
+2022/03/02 14:46:18 [notice] 26#26: exit
+2022/03/02 14:46:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:46:18 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:46:18 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 14:46:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:46:18 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:46:18 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:46:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:46:29 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:46:29 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:46:29 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:46:29 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:46:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:46:29 [notice] 1#1: start worker processes
+2022/03/02 14:46:29 [notice] 1#1: start worker process 22
+2022/03/02 14:46:29 [notice] 1#1: start worker process 23
+2022/03/02 14:46:29 [notice] 1#1: start worker process 24
+2022/03/02 14:46:29 [notice] 1#1: start worker process 25
+2022/03/02 14:53:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:53:27 [notice] 22#22: gracefully shutting down
+2022/03/02 14:53:27 [notice] 23#23: gracefully shutting down
+2022/03/02 14:53:27 [notice] 22#22: exiting
+2022/03/02 14:53:27 [notice] 23#23: exiting
+2022/03/02 14:53:27 [notice] 22#22: exit
+2022/03/02 14:53:27 [notice] 23#23: exit
+2022/03/02 14:53:27 [notice] 24#24: gracefully shutting down
+2022/03/02 14:53:27 [notice] 25#25: gracefully shutting down
+2022/03/02 14:53:27 [notice] 24#24: exiting
+2022/03/02 14:53:27 [notice] 25#25: exiting
+2022/03/02 14:53:27 [notice] 24#24: exit
+2022/03/02 14:53:27 [notice] 25#25: exit
+2022/03/02 14:53:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:53:27 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:53:27 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:53:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:53:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:53:27 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:53:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:53:27 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:53:27 [notice] 1#1: exit
+2022/03/02 14:53:28 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:53:28 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:53:28 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:53:28 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:53:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:53:28 [notice] 1#1: start worker processes
+2022/03/02 14:53:28 [notice] 1#1: start worker process 23
+2022/03/02 14:53:28 [notice] 1#1: start worker process 24
+2022/03/02 14:53:28 [notice] 1#1: start worker process 25
+2022/03/02 14:53:28 [notice] 1#1: start worker process 26
+2022/03/02 14:54:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:54:09 [notice] 24#24: gracefully shutting down
+2022/03/02 14:54:09 [notice] 23#23: gracefully shutting down
+2022/03/02 14:54:09 [notice] 26#26: gracefully shutting down
+2022/03/02 14:54:09 [notice] 23#23: exiting
+2022/03/02 14:54:09 [notice] 26#26: exiting
+2022/03/02 14:54:09 [notice] 25#25: gracefully shutting down
+2022/03/02 14:54:09 [notice] 25#25: exiting
+2022/03/02 14:54:09 [notice] 23#23: exit
+2022/03/02 14:54:09 [notice] 26#26: exit
+2022/03/02 14:54:09 [notice] 25#25: exit
+2022/03/02 14:54:09 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 14:54:09 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:54:09 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:54:09 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 14:54:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:54:09 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 14:54:20 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:54:20 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:54:20 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:54:20 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:54:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:54:20 [notice] 1#1: start worker processes
+2022/03/02 14:54:20 [notice] 1#1: start worker process 22
+2022/03/02 14:54:20 [notice] 1#1: start worker process 23
+2022/03/02 14:54:20 [notice] 1#1: start worker process 24
+2022/03/02 14:54:20 [notice] 1#1: start worker process 25
+2022/03/02 14:55:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:55:32 [notice] 23#23: gracefully shutting down
+2022/03/02 14:55:32 [notice] 24#24: gracefully shutting down
+2022/03/02 14:55:32 [notice] 25#25: gracefully shutting down
+2022/03/02 14:55:32 [notice] 23#23: exiting
+2022/03/02 14:55:32 [notice] 22#22: gracefully shutting down
+2022/03/02 14:55:32 [notice] 24#24: exiting
+2022/03/02 14:55:32 [notice] 25#25: exiting
+2022/03/02 14:55:32 [notice] 22#22: exiting
+2022/03/02 14:55:32 [notice] 25#25: exit
+2022/03/02 14:55:32 [notice] 24#24: exit
+2022/03/02 14:55:32 [notice] 23#23: exit
+2022/03/02 14:55:32 [notice] 22#22: exit
+2022/03/02 14:55:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 14:55:33 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 14:55:33 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:55:33 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:55:33 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:55:33 [notice] 1#1: exit
+2022/03/02 14:55:33 [notice] 1#1: using the "epoll" event method
+2022/03/02 14:55:33 [notice] 1#1: nginx/1.20.2
+2022/03/02 14:55:33 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 14:55:33 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 14:55:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 14:55:33 [notice] 1#1: start worker processes
+2022/03/02 14:55:33 [notice] 1#1: start worker process 23
+2022/03/02 14:55:33 [notice] 1#1: start worker process 24
+2022/03/02 14:55:33 [notice] 1#1: start worker process 25
+2022/03/02 14:55:33 [notice] 1#1: start worker process 26
+2022/03/02 14:59:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 14:59:54 [notice] 26#26: gracefully shutting down
+2022/03/02 14:59:54 [notice] 25#25: gracefully shutting down
+2022/03/02 14:59:54 [notice] 26#26: exiting
+2022/03/02 14:59:54 [notice] 25#25: exiting
+2022/03/02 14:59:54 [notice] 26#26: exit
+2022/03/02 14:59:54 [notice] 25#25: exit
+2022/03/02 14:59:54 [notice] 24#24: gracefully shutting down
+2022/03/02 14:59:54 [notice] 23#23: gracefully shutting down
+2022/03/02 14:59:54 [notice] 24#24: exiting
+2022/03/02 14:59:54 [notice] 23#23: exiting
+2022/03/02 14:59:54 [notice] 24#24: exit
+2022/03/02 14:59:54 [notice] 23#23: exit
+2022/03/02 14:59:55 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 14:59:55 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 14:59:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:59:55 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 14:59:55 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 14:59:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 14:59:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 14:59:55 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 14:59:55 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 14:59:55 [notice] 1#1: exit
+2022/03/02 14:59:55 [emerg] 1#1: invalid number of arguments in "rewrite" directive in /etc/nginx/conf.d/sites.conf:10
+2022/03/02 15:00:11 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:00:11 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:00:11 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:00:11 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:00:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:00:11 [notice] 1#1: start worker processes
+2022/03/02 15:00:11 [notice] 1#1: start worker process 23
+2022/03/02 15:00:11 [notice] 1#1: start worker process 24
+2022/03/02 15:00:11 [notice] 1#1: start worker process 25
+2022/03/02 15:00:11 [notice] 1#1: start worker process 26
+2022/03/02 15:07:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:07:38 [notice] 25#25: gracefully shutting down
+2022/03/02 15:07:38 [notice] 24#24: gracefully shutting down
+2022/03/02 15:07:38 [notice] 23#23: gracefully shutting down
+2022/03/02 15:07:38 [notice] 25#25: exiting
+2022/03/02 15:07:38 [notice] 24#24: exiting
+2022/03/02 15:07:38 [notice] 23#23: exiting
+2022/03/02 15:07:38 [notice] 26#26: gracefully shutting down
+2022/03/02 15:07:38 [notice] 26#26: exiting
+2022/03/02 15:07:38 [notice] 25#25: exit
+2022/03/02 15:07:38 [notice] 24#24: exit
+2022/03/02 15:07:38 [notice] 23#23: exit
+2022/03/02 15:07:38 [notice] 26#26: exit
+2022/03/02 15:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:07:38 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:07:38 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:07:38 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:07:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:07:38 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:07:38 [notice] 1#1: exit
+2022/03/02 15:07:39 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:07:39 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:07:39 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:07:39 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:07:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:07:39 [notice] 1#1: start worker processes
+2022/03/02 15:07:39 [notice] 1#1: start worker process 22
+2022/03/02 15:07:39 [notice] 1#1: start worker process 23
+2022/03/02 15:07:39 [notice] 1#1: start worker process 24
+2022/03/02 15:07:39 [notice] 1#1: start worker process 25
+2022/03/02 15:09:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:09:32 [notice] 22#22: gracefully shutting down
+2022/03/02 15:09:32 [notice] 25#25: gracefully shutting down
+2022/03/02 15:09:32 [notice] 22#22: exiting
+2022/03/02 15:09:32 [notice] 25#25: exiting
+2022/03/02 15:09:32 [notice] 22#22: exit
+2022/03/02 15:09:32 [notice] 25#25: exit
+2022/03/02 15:09:32 [notice] 24#24: gracefully shutting down
+2022/03/02 15:09:32 [notice] 23#23: gracefully shutting down
+2022/03/02 15:09:32 [notice] 24#24: exiting
+2022/03/02 15:09:32 [notice] 24#24: exit
+2022/03/02 15:09:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:09:32 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:09:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:09:32 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:09:32 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:09:32 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:09:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:09:38 [notice] 23#23: exiting
+2022/03/02 15:09:38 [notice] 23#23: exit
+2022/03/02 15:09:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:09:39 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:09:39 [notice] 1#1: exit
+2022/03/02 15:09:39 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:09:39 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:09:39 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:09:39 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:09:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:09:39 [notice] 1#1: start worker processes
+2022/03/02 15:09:39 [notice] 1#1: start worker process 22
+2022/03/02 15:09:39 [notice] 1#1: start worker process 23
+2022/03/02 15:09:39 [notice] 1#1: start worker process 24
+2022/03/02 15:09:39 [notice] 1#1: start worker process 25
+2022/03/02 15:09:48 [error] 23#23: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:09:52 [error] 23#23: *1 open() "/var/www/test" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:11:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:11:47 [notice] 23#23: gracefully shutting down
+2022/03/02 15:11:47 [notice] 24#24: gracefully shutting down
+2022/03/02 15:11:47 [notice] 22#22: gracefully shutting down
+2022/03/02 15:11:47 [notice] 23#23: exiting
+2022/03/02 15:11:47 [notice] 24#24: exiting
+2022/03/02 15:11:47 [notice] 22#22: exiting
+2022/03/02 15:11:47 [notice] 23#23: exit
+2022/03/02 15:11:47 [notice] 22#22: exit
+2022/03/02 15:11:47 [notice] 24#24: exit
+2022/03/02 15:11:47 [notice] 25#25: gracefully shutting down
+2022/03/02 15:11:47 [notice] 25#25: exiting
+2022/03/02 15:11:47 [notice] 25#25: exit
+2022/03/02 15:11:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:11:47 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:11:47 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:11:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:11:47 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:11:47 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:11:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:11:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:11:47 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:11:47 [notice] 1#1: exit
+2022/03/02 15:11:47 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:11:47 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:11:47 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:11:47 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:11:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:11:47 [notice] 1#1: start worker processes
+2022/03/02 15:11:47 [notice] 1#1: start worker process 23
+2022/03/02 15:11:47 [notice] 1#1: start worker process 24
+2022/03/02 15:11:47 [notice] 1#1: start worker process 25
+2022/03/02 15:11:47 [notice] 1#1: start worker process 26
+2022/03/02 15:11:50 [error] 24#24: *2 open() "/var/www/test" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:11:51 [error] 24#24: *2 open() "/var/www/test" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /test HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:12:05 [error] 24#24: *2 directory index of "/var/www/admin/" is forbidden, client: 172.26.0.1, server: sites.local, request: "GET /admin/ HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:15:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:15:40 [notice] 23#23: gracefully shutting down
+2022/03/02 15:15:40 [notice] 25#25: gracefully shutting down
+2022/03/02 15:15:40 [notice] 23#23: exiting
+2022/03/02 15:15:40 [notice] 25#25: exiting
+2022/03/02 15:15:40 [notice] 26#26: gracefully shutting down
+2022/03/02 15:15:40 [notice] 26#26: exiting
+2022/03/02 15:15:40 [notice] 25#25: exit
+2022/03/02 15:15:40 [notice] 23#23: exit
+2022/03/02 15:15:40 [notice] 26#26: exit
+2022/03/02 15:15:40 [notice] 24#24: gracefully shutting down
+2022/03/02 15:15:40 [notice] 24#24: exiting
+2022/03/02 15:15:40 [notice] 24#24: exit
+2022/03/02 15:15:40 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:15:40 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:15:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:15:40 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:15:40 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:15:40 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:15:40 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:15:40 [notice] 1#1: exit
+2022/03/02 15:15:41 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:15:41 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:15:41 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:15:41 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:15:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:15:41 [notice] 1#1: start worker processes
+2022/03/02 15:15:41 [notice] 1#1: start worker process 23
+2022/03/02 15:15:41 [notice] 1#1: start worker process 24
+2022/03/02 15:15:41 [notice] 1#1: start worker process 25
+2022/03/02 15:15:41 [notice] 1#1: start worker process 26
+2022/03/02 15:16:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:16:04 [notice] 23#23: gracefully shutting down
+2022/03/02 15:16:04 [notice] 24#24: gracefully shutting down
+2022/03/02 15:16:04 [notice] 26#26: gracefully shutting down
+2022/03/02 15:16:04 [notice] 23#23: exiting
+2022/03/02 15:16:04 [notice] 25#25: gracefully shutting down
+2022/03/02 15:16:04 [notice] 24#24: exiting
+2022/03/02 15:16:04 [notice] 25#25: exiting
+2022/03/02 15:16:04 [notice] 23#23: exit
+2022/03/02 15:16:04 [notice] 24#24: exit
+2022/03/02 15:16:04 [notice] 25#25: exit
+2022/03/02 15:16:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:16:04 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:16:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:16:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:16:04 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:16:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:16:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:16:04 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:16:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:16:09 [notice] 26#26: exiting
+2022/03/02 15:16:09 [notice] 26#26: exit
+2022/03/02 15:16:09 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:16:09 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:16:09 [notice] 1#1: exit
+2022/03/02 15:16:10 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:16:10 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:16:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:16:10 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:16:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:16:10 [notice] 1#1: start worker processes
+2022/03/02 15:16:10 [notice] 1#1: start worker process 23
+2022/03/02 15:16:10 [notice] 1#1: start worker process 24
+2022/03/02 15:16:10 [notice] 1#1: start worker process 25
+2022/03/02 15:16:10 [notice] 1#1: start worker process 26
+2022/03/02 15:16:13 [error] 23#23: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 15:17:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:17:04 [notice] 24#24: gracefully shutting down
+2022/03/02 15:17:04 [notice] 25#25: gracefully shutting down
+2022/03/02 15:17:04 [notice] 24#24: exiting
+2022/03/02 15:17:04 [notice] 25#25: exiting
+2022/03/02 15:17:04 [notice] 24#24: exit
+2022/03/02 15:17:04 [notice] 25#25: exit
+2022/03/02 15:17:04 [notice] 26#26: gracefully shutting down
+2022/03/02 15:17:04 [notice] 26#26: exiting
+2022/03/02 15:17:04 [notice] 23#23: gracefully shutting down
+2022/03/02 15:17:04 [notice] 26#26: exit
+2022/03/02 15:17:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:17:04 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:17:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:17:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:17:04 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:17:04 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:17:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:17:13 [notice] 23#23: exiting
+2022/03/02 15:17:13 [notice] 23#23: exit
+2022/03/02 15:17:13 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:17:13 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:17:13 [notice] 1#1: exit
+2022/03/02 15:17:14 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:17:14 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:17:14 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:17:14 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:17:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:17:14 [notice] 1#1: start worker processes
+2022/03/02 15:17:14 [notice] 1#1: start worker process 22
+2022/03/02 15:17:14 [notice] 1#1: start worker process 23
+2022/03/02 15:17:14 [notice] 1#1: start worker process 24
+2022/03/02 15:17:14 [notice] 1#1: start worker process 25
+2022/03/02 15:17:36 [error] 22#22: *5 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 15:17:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:17:43 [notice] 24#24: gracefully shutting down
+2022/03/02 15:17:43 [notice] 23#23: gracefully shutting down
+2022/03/02 15:17:43 [notice] 25#25: gracefully shutting down
+2022/03/02 15:17:43 [notice] 24#24: exiting
+2022/03/02 15:17:43 [notice] 23#23: exiting
+2022/03/02 15:17:43 [notice] 25#25: exiting
+2022/03/02 15:17:43 [notice] 24#24: exit
+2022/03/02 15:17:43 [notice] 25#25: exit
+2022/03/02 15:17:43 [notice] 23#23: exit
+2022/03/02 15:17:43 [notice] 22#22: gracefully shutting down
+2022/03/02 15:17:43 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:17:43 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:17:43 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:17:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:17:43 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:17:43 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:17:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:17:48 [notice] 22#22: exiting
+2022/03/02 15:17:48 [notice] 22#22: exit
+2022/03/02 15:17:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:17:49 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:17:49 [notice] 1#1: exit
+2022/03/02 15:17:49 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:17:49 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:17:49 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:17:49 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:17:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:17:49 [notice] 1#1: start worker processes
+2022/03/02 15:17:49 [notice] 1#1: start worker process 23
+2022/03/02 15:17:49 [notice] 1#1: start worker process 24
+2022/03/02 15:17:49 [notice] 1#1: start worker process 25
+2022/03/02 15:17:49 [notice] 1#1: start worker process 26
+2022/03/02 15:18:05 [error] 23#23: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 15:19:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:19:37 [notice] 26#26: gracefully shutting down
+2022/03/02 15:19:37 [notice] 25#25: gracefully shutting down
+2022/03/02 15:19:37 [notice] 25#25: exiting
+2022/03/02 15:19:37 [notice] 25#25: exit
+2022/03/02 15:19:37 [notice] 23#23: gracefully shutting down
+2022/03/02 15:19:37 [notice] 23#23: exiting
+2022/03/02 15:19:37 [notice] 23#23: exit
+2022/03/02 15:19:37 [notice] 24#24: gracefully shutting down
+2022/03/02 15:19:37 [notice] 24#24: exiting
+2022/03/02 15:19:37 [notice] 24#24: exit
+2022/03/02 15:19:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:19:37 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:19:37 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:19:37 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:19:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:19:43 [notice] 26#26: exiting
+2022/03/02 15:19:43 [notice] 26#26: exit
+2022/03/02 15:19:43 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:19:43 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:19:43 [notice] 1#1: exit
+2022/03/02 15:19:43 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:19:43 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:19:43 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:19:43 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:19:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:19:43 [notice] 1#1: start worker processes
+2022/03/02 15:19:43 [notice] 1#1: start worker process 23
+2022/03/02 15:19:43 [notice] 1#1: start worker process 24
+2022/03/02 15:19:43 [notice] 1#1: start worker process 25
+2022/03/02 15:19:43 [notice] 1#1: start worker process 26
+2022/03/02 15:19:48 [error] 25#25: *5 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 15:20:13 [error] 25#25: *5 open() "/var/www/admin/page" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /admin/page HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:20:25 [error] 25#25: *5 open() "/var/www/page" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /page HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:20:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:20:37 [notice] 24#24: gracefully shutting down
+2022/03/02 15:20:37 [notice] 26#26: gracefully shutting down
+2022/03/02 15:20:37 [notice] 24#24: exiting
+2022/03/02 15:20:37 [notice] 26#26: exiting
+2022/03/02 15:20:37 [notice] 24#24: exit
+2022/03/02 15:20:37 [notice] 26#26: exit
+2022/03/02 15:20:37 [notice] 23#23: gracefully shutting down
+2022/03/02 15:20:37 [notice] 23#23: exiting
+2022/03/02 15:20:37 [notice] 23#23: exit
+2022/03/02 15:20:37 [notice] 25#25: gracefully shutting down
+2022/03/02 15:20:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:20:37 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:20:37 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:20:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:20:37 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:20:37 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:20:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:20:45 [notice] 25#25: exiting
+2022/03/02 15:20:45 [notice] 25#25: exit
+2022/03/02 15:20:45 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:20:45 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:20:45 [notice] 1#1: exit
+2022/03/02 15:20:46 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:20:46 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:20:46 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:20:46 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:20:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:20:46 [notice] 1#1: start worker processes
+2022/03/02 15:20:46 [notice] 1#1: start worker process 23
+2022/03/02 15:20:46 [notice] 1#1: start worker process 24
+2022/03/02 15:20:46 [notice] 1#1: start worker process 25
+2022/03/02 15:20:46 [notice] 1#1: start worker process 26
+2022/03/02 15:20:52 [error] 26#26: *3 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 15:21:09 [error] 26#26: *3 open() "/var/www/tes" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tes HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:21:15 [error] 26#26: *3 open() "/var/www/testtt" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /testtt HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:22:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:22:47 [notice] 23#23: gracefully shutting down
+2022/03/02 15:22:47 [notice] 25#25: gracefully shutting down
+2022/03/02 15:22:47 [notice] 23#23: exiting
+2022/03/02 15:22:47 [notice] 25#25: exiting
+2022/03/02 15:22:47 [notice] 23#23: exit
+2022/03/02 15:22:47 [notice] 25#25: exit
+2022/03/02 15:22:47 [notice] 24#24: gracefully shutting down
+2022/03/02 15:22:47 [notice] 24#24: exiting
+2022/03/02 15:22:47 [notice] 26#26: gracefully shutting down
+2022/03/02 15:22:47 [notice] 26#26: exiting
+2022/03/02 15:22:47 [notice] 24#24: exit
+2022/03/02 15:22:47 [notice] 26#26: exit
+2022/03/02 15:22:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:22:47 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:22:47 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:22:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:22:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:22:47 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:22:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:22:47 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:22:47 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:22:47 [notice] 1#1: exit
+2022/03/02 15:22:48 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:22:48 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:22:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:22:48 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:22:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:22:48 [notice] 1#1: start worker processes
+2022/03/02 15:22:48 [notice] 1#1: start worker process 22
+2022/03/02 15:22:48 [notice] 1#1: start worker process 23
+2022/03/02 15:22:48 [notice] 1#1: start worker process 24
+2022/03/02 15:22:48 [notice] 1#1: start worker process 25
+2022/03/02 15:22:58 [error] 22#22: *1 open() "/var/www/tes" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tes HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:24:55 [error] 23#23: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/tes"
+2022/03/02 15:26:26 [error] 23#23: *11 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/"
+2022/03/02 15:28:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:28:47 [notice] 24#24: gracefully shutting down
+2022/03/02 15:28:47 [notice] 25#25: gracefully shutting down
+2022/03/02 15:28:47 [notice] 22#22: gracefully shutting down
+2022/03/02 15:28:47 [notice] 24#24: exiting
+2022/03/02 15:28:47 [notice] 25#25: exiting
+2022/03/02 15:28:47 [notice] 22#22: exiting
+2022/03/02 15:28:47 [notice] 22#22: exit
+2022/03/02 15:28:47 [notice] 25#25: exit
+2022/03/02 15:28:47 [notice] 24#24: exit
+2022/03/02 15:28:47 [notice] 23#23: gracefully shutting down
+2022/03/02 15:28:47 [notice] 23#23: exiting
+2022/03/02 15:28:47 [notice] 23#23: exit
+2022/03/02 15:28:47 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:28:47 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:28:47 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:28:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:28:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:28:47 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:28:47 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:28:47 [notice] 1#1: exit
+2022/03/02 15:28:48 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:28:48 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:28:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:28:48 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:28:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:28:48 [notice] 1#1: start worker processes
+2022/03/02 15:28:48 [notice] 1#1: start worker process 22
+2022/03/02 15:28:48 [notice] 1#1: start worker process 23
+2022/03/02 15:28:48 [notice] 1#1: start worker process 24
+2022/03/02 15:28:48 [notice] 1#1: start worker process 25
+2022/03/02 15:30:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:30:19 [notice] 25#25: gracefully shutting down
+2022/03/02 15:30:19 [notice] 25#25: exiting
+2022/03/02 15:30:19 [notice] 25#25: exit
+2022/03/02 15:30:19 [notice] 23#23: gracefully shutting down
+2022/03/02 15:30:19 [notice] 23#23: exiting
+2022/03/02 15:30:19 [notice] 23#23: exit
+2022/03/02 15:30:19 [notice] 24#24: gracefully shutting down
+2022/03/02 15:30:19 [notice] 24#24: exiting
+2022/03/02 15:30:19 [notice] 22#22: gracefully shutting down
+2022/03/02 15:30:19 [notice] 22#22: exiting
+2022/03/02 15:30:19 [notice] 24#24: exit
+2022/03/02 15:30:19 [notice] 22#22: exit
+2022/03/02 15:30:19 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:30:19 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:30:19 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:30:19 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:30:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:30:19 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:30:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:30:19 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:30:19 [notice] 1#1: exit
+2022/03/02 15:30:19 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:30:19 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:30:19 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:30:19 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:30:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:30:19 [notice] 1#1: start worker processes
+2022/03/02 15:30:19 [notice] 1#1: start worker process 21
+2022/03/02 15:30:19 [notice] 1#1: start worker process 22
+2022/03/02 15:30:19 [notice] 1#1: start worker process 23
+2022/03/02 15:30:19 [notice] 1#1: start worker process 24
+2022/03/02 15:30:39 [error] 23#23: *1 open() "/var/www/t" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /t HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:30:45 [error] 23#23: *1 open() "/var/www/tets<s" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tets%3Cs HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:31:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:31:03 [notice] 21#21: gracefully shutting down
+2022/03/02 15:31:03 [notice] 24#24: gracefully shutting down
+2022/03/02 15:31:03 [notice] 21#21: exiting
+2022/03/02 15:31:03 [notice] 24#24: exiting
+2022/03/02 15:31:03 [notice] 21#21: exit
+2022/03/02 15:31:03 [notice] 24#24: exit
+2022/03/02 15:31:03 [notice] 22#22: gracefully shutting down
+2022/03/02 15:31:03 [notice] 22#22: exiting
+2022/03/02 15:31:03 [notice] 22#22: exit
+2022/03/02 15:31:03 [notice] 23#23: gracefully shutting down
+2022/03/02 15:31:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:31:03 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:31:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:31:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:31:03 [notice] 1#1: worker process 21 exited with code 0
+2022/03/02 15:31:03 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:31:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:31:09 [error] 23#23: *2 open() "/var/www/tets<s" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tets%3Cs HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:31:09 [notice] 23#23: exiting
+2022/03/02 15:31:09 [notice] 23#23: exit
+2022/03/02 15:31:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:31:09 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:31:09 [notice] 1#1: exit
+2022/03/02 15:31:10 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:31:10 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:31:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:31:10 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:31:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:31:10 [notice] 1#1: start worker processes
+2022/03/02 15:31:10 [notice] 1#1: start worker process 22
+2022/03/02 15:31:10 [notice] 1#1: start worker process 23
+2022/03/02 15:31:10 [notice] 1#1: start worker process 24
+2022/03/02 15:31:10 [notice] 1#1: start worker process 25
+2022/03/02 15:31:10 [error] 23#23: *2 open() "/var/www/tets<s" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tets%3Cs HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:31:11 [error] 23#23: *4 open() "/var/www/tets<s" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tets%3Cs HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:31:12 [error] 23#23: *4 open() "/var/www/tets<s" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tets%3Cs HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:31:12 [error] 23#23: *4 open() "/var/www/tets<s" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tets%3Cs HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:31:13 [error] 23#23: *4 open() "/var/www/tets<s" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tets%3Cs HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:31:16 [error] 23#23: *4 open() "/var/www/t" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /t HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:32:20 [error] 23#23: *15 open() "/var/www/vgr" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /vgr HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:33:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:33:35 [notice] 25#25: gracefully shutting down
+2022/03/02 15:33:35 [notice] 22#22: gracefully shutting down
+2022/03/02 15:33:35 [notice] 24#24: gracefully shutting down
+2022/03/02 15:33:35 [notice] 25#25: exiting
+2022/03/02 15:33:35 [notice] 22#22: exiting
+2022/03/02 15:33:35 [notice] 24#24: exiting
+2022/03/02 15:33:35 [notice] 22#22: exit
+2022/03/02 15:33:35 [notice] 25#25: exit
+2022/03/02 15:33:35 [notice] 24#24: exit
+2022/03/02 15:33:35 [notice] 23#23: gracefully shutting down
+2022/03/02 15:33:35 [notice] 23#23: exiting
+2022/03/02 15:33:35 [notice] 23#23: exit
+2022/03/02 15:33:35 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:33:35 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:33:35 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:33:35 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:33:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:33:35 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:33:35 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:33:35 [notice] 1#1: exit
+2022/03/02 15:33:36 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:33:36 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:33:36 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:33:36 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:33:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:33:36 [notice] 1#1: start worker processes
+2022/03/02 15:33:36 [notice] 1#1: start worker process 24
+2022/03/02 15:33:36 [notice] 1#1: start worker process 25
+2022/03/02 15:33:36 [notice] 1#1: start worker process 26
+2022/03/02 15:33:36 [notice] 1#1: start worker process 27
+2022/03/02 15:33:41 [error] 25#25: *1 open() "/var/www/vgr" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /vgr HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:33:42 [error] 25#25: *1 open() "/var/www/vgr" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /vgr HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:33:57 [error] 24#24: *4 open() "/var/www/vgr" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /vgr HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:34:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:34:49 [notice] 24#24: gracefully shutting down
+2022/03/02 15:34:49 [notice] 25#25: gracefully shutting down
+2022/03/02 15:34:49 [notice] 27#27: gracefully shutting down
+2022/03/02 15:34:49 [notice] 25#25: exiting
+2022/03/02 15:34:49 [notice] 27#27: exiting
+2022/03/02 15:34:49 [notice] 26#26: gracefully shutting down
+2022/03/02 15:34:49 [notice] 26#26: exiting
+2022/03/02 15:34:49 [notice] 25#25: exit
+2022/03/02 15:34:49 [notice] 27#27: exit
+2022/03/02 15:34:49 [notice] 26#26: exit
+2022/03/02 15:34:49 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/02 15:34:49 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:34:49 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:34:49 [notice] 1#1: worker process 27 exited with code 0
+2022/03/02 15:34:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:34:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:34:57 [notice] 24#24: exiting
+2022/03/02 15:34:57 [notice] 24#24: exit
+2022/03/02 15:34:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:34:58 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:34:58 [notice] 1#1: exit
+2022/03/02 15:34:58 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:34:58 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:34:58 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:34:58 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:34:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:34:58 [notice] 1#1: start worker processes
+2022/03/02 15:34:58 [notice] 1#1: start worker process 22
+2022/03/02 15:34:58 [notice] 1#1: start worker process 23
+2022/03/02 15:34:58 [notice] 1#1: start worker process 24
+2022/03/02 15:34:58 [notice] 1#1: start worker process 25
+2022/03/02 15:36:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:36:33 [notice] 23#23: gracefully shutting down
+2022/03/02 15:36:33 [notice] 25#25: gracefully shutting down
+2022/03/02 15:36:33 [notice] 23#23: exiting
+2022/03/02 15:36:33 [notice] 25#25: exiting
+2022/03/02 15:36:33 [notice] 23#23: exit
+2022/03/02 15:36:33 [notice] 25#25: exit
+2022/03/02 15:36:33 [notice] 22#22: gracefully shutting down
+2022/03/02 15:36:33 [notice] 22#22: exiting
+2022/03/02 15:36:33 [notice] 22#22: exit
+2022/03/02 15:36:33 [notice] 24#24: gracefully shutting down
+2022/03/02 15:36:33 [notice] 24#24: exiting
+2022/03/02 15:36:33 [notice] 24#24: exit
+2022/03/02 15:36:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:36:33 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:36:33 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:36:33 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:36:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:36:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:36:33 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:36:33 [notice] 1#1: exit
+2022/03/02 15:36:33 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:36:33 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:36:33 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:36:33 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:36:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:36:33 [notice] 1#1: start worker processes
+2022/03/02 15:36:33 [notice] 1#1: start worker process 23
+2022/03/02 15:36:33 [notice] 1#1: start worker process 24
+2022/03/02 15:36:33 [notice] 1#1: start worker process 25
+2022/03/02 15:36:33 [notice] 1#1: start worker process 26
+2022/03/02 15:36:51 [error] 24#24: *2 open() "/var/www/drsgreg" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /drsgreg HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:36:54 [error] 24#24: *2 open() "/var/www/drsgreg" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /drsgreg HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:36:54 [error] 24#24: *2 open() "/var/www/drsgreg" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /drsgreg HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:37:02 [error] 24#24: *2 open() "/var/www/drsgreg/php" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /drsgreg/php HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:37:06 [error] 24#24: *2 rewrite or internal redirection cycle while internally redirecting to "page.php", client: 172.26.0.1, server: sites.local, request: "GET /drsgreg.php HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:42:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:42:18 [notice] 23#23: gracefully shutting down
+2022/03/02 15:42:18 [notice] 25#25: gracefully shutting down
+2022/03/02 15:42:18 [notice] 23#23: exiting
+2022/03/02 15:42:18 [notice] 25#25: exiting
+2022/03/02 15:42:18 [notice] 26#26: gracefully shutting down
+2022/03/02 15:42:18 [notice] 26#26: exiting
+2022/03/02 15:42:18 [notice] 23#23: exit
+2022/03/02 15:42:18 [notice] 25#25: exit
+2022/03/02 15:42:18 [notice] 26#26: exit
+2022/03/02 15:42:18 [notice] 24#24: gracefully shutting down
+2022/03/02 15:42:18 [notice] 24#24: exiting
+2022/03/02 15:42:18 [notice] 24#24: exit
+2022/03/02 15:42:18 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:42:18 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:42:18 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:42:18 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:42:18 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:42:18 [notice] 1#1: exit
+2022/03/02 15:42:18 [emerg] 1#1: invalid number of arguments in "rewrite" directive in /etc/nginx/conf.d/sites.conf:14
+2022/03/02 15:42:53 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:42:53 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:42:53 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:42:53 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:42:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:42:53 [notice] 1#1: start worker processes
+2022/03/02 15:42:53 [notice] 1#1: start worker process 22
+2022/03/02 15:42:53 [notice] 1#1: start worker process 23
+2022/03/02 15:42:53 [notice] 1#1: start worker process 24
+2022/03/02 15:42:53 [notice] 1#1: start worker process 25
+2022/03/02 15:43:03 [error] 22#22: *2 open() "/var/www/rtrth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rtrth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:43:18 [error] 22#22: *2 open() "/var/www/rtyhltkyj;ltyj" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rtyhltkyj;ltyj HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:43:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:43:31 [notice] 22#22: gracefully shutting down
+2022/03/02 15:43:31 [notice] 23#23: gracefully shutting down
+2022/03/02 15:43:31 [notice] 25#25: gracefully shutting down
+2022/03/02 15:43:31 [notice] 23#23: exiting
+2022/03/02 15:43:31 [notice] 25#25: exiting
+2022/03/02 15:43:31 [notice] 25#25: exit
+2022/03/02 15:43:31 [notice] 23#23: exit
+2022/03/02 15:43:31 [notice] 24#24: gracefully shutting down
+2022/03/02 15:43:31 [notice] 24#24: exiting
+2022/03/02 15:43:31 [notice] 24#24: exit
+2022/03/02 15:43:31 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:43:31 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:43:31 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:43:31 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:43:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:43:35 [error] 22#22: *1 open() "/var/www/rtyhltkyj;ltyj" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rtyhltkyj;ltyj HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:43:35 [notice] 22#22: exiting
+2022/03/02 15:43:35 [notice] 22#22: exit
+2022/03/02 15:43:35 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:43:35 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:43:35 [notice] 1#1: exit
+2022/03/02 15:43:36 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:43:36 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:43:36 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:43:36 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:43:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:43:36 [notice] 1#1: start worker processes
+2022/03/02 15:43:36 [notice] 1#1: start worker process 23
+2022/03/02 15:43:36 [notice] 1#1: start worker process 24
+2022/03/02 15:43:36 [notice] 1#1: start worker process 25
+2022/03/02 15:43:36 [notice] 1#1: start worker process 26
+2022/03/02 15:44:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:44:05 [notice] 24#24: gracefully shutting down
+2022/03/02 15:44:05 [notice] 26#26: gracefully shutting down
+2022/03/02 15:44:05 [notice] 23#23: gracefully shutting down
+2022/03/02 15:44:05 [notice] 25#25: gracefully shutting down
+2022/03/02 15:44:05 [notice] 26#26: exiting
+2022/03/02 15:44:05 [notice] 23#23: exiting
+2022/03/02 15:44:05 [notice] 25#25: exiting
+2022/03/02 15:44:05 [notice] 26#26: exit
+2022/03/02 15:44:05 [notice] 23#23: exit
+2022/03/02 15:44:05 [notice] 25#25: exit
+2022/03/02 15:44:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:44:05 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:44:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:44:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:44:05 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:44:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:44:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:44:05 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:44:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:44:14 [notice] 24#24: exiting
+2022/03/02 15:44:14 [notice] 24#24: exit
+2022/03/02 15:44:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:44:14 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:44:14 [notice] 1#1: exit
+2022/03/02 15:44:14 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:44:14 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:44:14 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:44:14 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:44:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:44:14 [notice] 1#1: start worker processes
+2022/03/02 15:44:14 [notice] 1#1: start worker process 23
+2022/03/02 15:44:14 [notice] 1#1: start worker process 24
+2022/03/02 15:44:14 [notice] 1#1: start worker process 25
+2022/03/02 15:44:14 [notice] 1#1: start worker process 26
+2022/03/02 15:44:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:44:33 [notice] 23#23: gracefully shutting down
+2022/03/02 15:44:33 [notice] 25#25: gracefully shutting down
+2022/03/02 15:44:33 [notice] 26#26: gracefully shutting down
+2022/03/02 15:44:33 [notice] 25#25: exiting
+2022/03/02 15:44:33 [notice] 26#26: exiting
+2022/03/02 15:44:33 [notice] 24#24: gracefully shutting down
+2022/03/02 15:44:33 [notice] 24#24: exiting
+2022/03/02 15:44:33 [notice] 25#25: exit
+2022/03/02 15:44:33 [notice] 26#26: exit
+2022/03/02 15:44:33 [notice] 24#24: exit
+2022/03/02 15:44:33 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:44:33 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:44:33 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:44:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:44:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:44:33 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:44:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:44:36 [notice] 23#23: exiting
+2022/03/02 15:44:36 [notice] 23#23: exit
+2022/03/02 15:44:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:44:36 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:44:36 [notice] 1#1: exit
+2022/03/02 15:44:37 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:44:37 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:44:37 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:44:37 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:44:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:44:37 [notice] 1#1: start worker processes
+2022/03/02 15:44:37 [notice] 1#1: start worker process 21
+2022/03/02 15:44:37 [notice] 1#1: start worker process 22
+2022/03/02 15:44:37 [notice] 1#1: start worker process 23
+2022/03/02 15:44:37 [notice] 1#1: start worker process 24
+2022/03/02 15:47:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:47:48 [notice] 24#24: gracefully shutting down
+2022/03/02 15:47:48 [notice] 24#24: exiting
+2022/03/02 15:47:48 [notice] 23#23: gracefully shutting down
+2022/03/02 15:47:48 [notice] 23#23: exiting
+2022/03/02 15:47:48 [notice] 24#24: exit
+2022/03/02 15:47:48 [notice] 23#23: exit
+2022/03/02 15:47:48 [notice] 21#21: gracefully shutting down
+2022/03/02 15:47:48 [notice] 21#21: exiting
+2022/03/02 15:47:48 [notice] 22#22: gracefully shutting down
+2022/03/02 15:47:48 [notice] 22#22: exiting
+2022/03/02 15:47:48 [notice] 21#21: exit
+2022/03/02 15:47:48 [notice] 22#22: exit
+2022/03/02 15:47:48 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:47:48 [notice] 1#1: worker process 21 exited with code 0
+2022/03/02 15:47:48 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:47:48 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:47:48 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:47:48 [notice] 1#1: exit
+2022/03/02 15:47:48 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:47:48 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:47:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:47:48 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:47:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:47:48 [notice] 1#1: start worker processes
+2022/03/02 15:47:48 [notice] 1#1: start worker process 23
+2022/03/02 15:47:48 [notice] 1#1: start worker process 24
+2022/03/02 15:47:48 [notice] 1#1: start worker process 25
+2022/03/02 15:47:48 [notice] 1#1: start worker process 26
+2022/03/02 15:48:07 [error] 24#24: *5 open() "/var/www/tee" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tee HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:48:10 [error] 24#24: *5 open() "/var/www/tefsefsfes" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /tefsefsfes HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:48:39 [error] 24#24: *10 open() "/var/www/thrth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /thrth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:49:01 [notice] 26#26: gracefully shutting down
+2022/03/02 15:49:01 [notice] 24#24: gracefully shutting down
+2022/03/02 15:49:01 [notice] 25#25: gracefully shutting down
+2022/03/02 15:49:01 [notice] 23#23: gracefully shutting down
+2022/03/02 15:49:01 [notice] 26#26: exiting
+2022/03/02 15:49:01 [notice] 25#25: exiting
+2022/03/02 15:49:01 [notice] 23#23: exiting
+2022/03/02 15:49:01 [notice] 24#24: exiting
+2022/03/02 15:49:01 [notice] 26#26: exit
+2022/03/02 15:49:01 [notice] 25#25: exit
+2022/03/02 15:49:01 [notice] 23#23: exit
+2022/03/02 15:49:01 [notice] 24#24: exit
+2022/03/02 15:49:01 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:49:01 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:49:01 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:49:01 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:49:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:49:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:49:01 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:49:01 [notice] 1#1: exit
+2022/03/02 15:49:01 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:49:01 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:49:01 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:49:01 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:49:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:49:01 [notice] 1#1: start worker processes
+2022/03/02 15:49:01 [notice] 1#1: start worker process 22
+2022/03/02 15:49:01 [notice] 1#1: start worker process 23
+2022/03/02 15:49:01 [notice] 1#1: start worker process 24
+2022/03/02 15:49:01 [notice] 1#1: start worker process 25
+2022/03/02 15:49:04 [error] 25#25: *1 open() "/var/www/thrth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /thrth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:05 [error] 25#25: *1 open() "/var/www/thrth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /thrth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:06 [error] 25#25: *1 open() "/var/www/homeee" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /homeee HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:08 [error] 25#25: *1 open() "/var/www/homeee" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /homeee HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:10 [error] 25#25: *1 open() "/var/www/home" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /home HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:19 [error] 25#25: *1 open() "/var/www/rth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:30 [error] 25#25: *1 open() "/var/www/rth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:32 [error] 25#25: *1 open() "/var/www/rth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:33 [error] 25#25: *1 open() "/var/www/rth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:33 [error] 25#25: *1 open() "/var/www/rth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:49:36 [notice] 24#24: gracefully shutting down
+2022/03/02 15:49:36 [notice] 22#22: gracefully shutting down
+2022/03/02 15:49:36 [notice] 23#23: gracefully shutting down
+2022/03/02 15:49:36 [notice] 24#24: exiting
+2022/03/02 15:49:36 [notice] 22#22: exiting
+2022/03/02 15:49:36 [notice] 23#23: exiting
+2022/03/02 15:49:36 [notice] 24#24: exit
+2022/03/02 15:49:36 [notice] 22#22: exit
+2022/03/02 15:49:36 [notice] 23#23: exit
+2022/03/02 15:49:36 [notice] 25#25: gracefully shutting down
+2022/03/02 15:49:36 [notice] 25#25: exiting
+2022/03/02 15:49:36 [notice] 25#25: exit
+2022/03/02 15:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:49:36 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:49:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:49:36 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:49:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:49:36 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:49:36 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:49:36 [notice] 1#1: exit
+2022/03/02 15:49:36 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:49:36 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:49:36 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:49:36 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:49:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:49:36 [notice] 1#1: start worker processes
+2022/03/02 15:49:36 [notice] 1#1: start worker process 23
+2022/03/02 15:49:36 [notice] 1#1: start worker process 24
+2022/03/02 15:49:36 [notice] 1#1: start worker process 25
+2022/03/02 15:49:36 [notice] 1#1: start worker process 26
+2022/03/02 15:49:42 [error] 25#25: *1 rewrite or internal redirection cycle while processing "/index.php", client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:43 [error] 25#25: *2 rewrite or internal redirection cycle while processing "/index.php", client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:43 [error] 25#25: *3 rewrite or internal redirection cycle while processing "/index.php", client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:49 [error] 25#25: *4 rewrite or internal redirection cycle while processing "/index.php", client: 172.26.0.1, server: sites.local, request: "GET / HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:51 [error] 25#25: *5 rewrite or internal redirection cycle while processing "/index.php", client: 172.26.0.1, server: sites.local, request: "GET / HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:49:59 [error] 25#25: *6 rewrite or internal redirection cycle while processing "/index.php", client: 172.26.0.1, server: sites.local, request: "GET /login.php HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:50:07 [error] 25#25: *7 rewrite or internal redirection cycle while processing "/index.php", client: 172.26.0.1, server: sites.local, request: "GET /login.php HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:50:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:50:09 [notice] 25#25: gracefully shutting down
+2022/03/02 15:50:09 [notice] 23#23: gracefully shutting down
+2022/03/02 15:50:09 [notice] 24#24: gracefully shutting down
+2022/03/02 15:50:09 [notice] 25#25: exiting
+2022/03/02 15:50:09 [notice] 23#23: exiting
+2022/03/02 15:50:09 [notice] 24#24: exiting
+2022/03/02 15:50:09 [notice] 25#25: exit
+2022/03/02 15:50:09 [notice] 23#23: exit
+2022/03/02 15:50:09 [notice] 24#24: exit
+2022/03/02 15:50:09 [notice] 26#26: gracefully shutting down
+2022/03/02 15:50:09 [notice] 26#26: exiting
+2022/03/02 15:50:09 [notice] 26#26: exit
+2022/03/02 15:50:10 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:50:10 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:50:10 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:50:10 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:50:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:50:10 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:50:10 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:50:10 [notice] 1#1: exit
+2022/03/02 15:50:10 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:50:10 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:50:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:50:10 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:50:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:50:10 [notice] 1#1: start worker processes
+2022/03/02 15:50:10 [notice] 1#1: start worker process 22
+2022/03/02 15:50:10 [notice] 1#1: start worker process 23
+2022/03/02 15:50:10 [notice] 1#1: start worker process 24
+2022/03/02 15:50:10 [notice] 1#1: start worker process 25
+2022/03/02 15:50:16 [error] 23#23: *1 open() "/var/www/rth" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /rth HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:50:22 [error] 23#23: *1 open() "/var/www/page" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /page HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:51:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:51:01 [notice] 22#22: gracefully shutting down
+2022/03/02 15:51:01 [notice] 22#22: exiting
+2022/03/02 15:51:01 [notice] 25#25: gracefully shutting down
+2022/03/02 15:51:01 [notice] 25#25: exiting
+2022/03/02 15:51:01 [notice] 22#22: exit
+2022/03/02 15:51:01 [notice] 25#25: exit
+2022/03/02 15:51:01 [notice] 24#24: gracefully shutting down
+2022/03/02 15:51:01 [notice] 24#24: exiting
+2022/03/02 15:51:01 [notice] 24#24: exit
+2022/03/02 15:51:01 [notice] 23#23: gracefully shutting down
+2022/03/02 15:51:01 [notice] 23#23: exiting
+2022/03/02 15:51:01 [notice] 23#23: exit
+2022/03/02 15:51:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:51:01 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:51:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:51:01 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:51:01 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:51:01 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:51:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:51:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:51:01 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:51:01 [notice] 1#1: exit
+2022/03/02 15:51:02 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:51:02 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:51:02 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:51:02 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:51:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:51:02 [notice] 1#1: start worker processes
+2022/03/02 15:51:02 [notice] 1#1: start worker process 22
+2022/03/02 15:51:02 [notice] 1#1: start worker process 23
+2022/03/02 15:51:02 [notice] 1#1: start worker process 24
+2022/03/02 15:51:02 [notice] 1#1: start worker process 25
+2022/03/02 15:53:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:53:05 [notice] 23#23: gracefully shutting down
+2022/03/02 15:53:05 [notice] 22#22: gracefully shutting down
+2022/03/02 15:53:05 [notice] 23#23: exiting
+2022/03/02 15:53:05 [notice] 22#22: exiting
+2022/03/02 15:53:05 [notice] 24#24: gracefully shutting down
+2022/03/02 15:53:05 [notice] 24#24: exiting
+2022/03/02 15:53:05 [notice] 23#23: exit
+2022/03/02 15:53:05 [notice] 22#22: exit
+2022/03/02 15:53:05 [notice] 24#24: exit
+2022/03/02 15:53:05 [notice] 25#25: gracefully shutting down
+2022/03/02 15:53:05 [notice] 25#25: exiting
+2022/03/02 15:53:05 [notice] 25#25: exit
+2022/03/02 15:53:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:53:05 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:53:05 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:53:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:53:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:53:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:53:05 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:53:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:53:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:53:05 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:53:05 [notice] 1#1: exit
+2022/03/02 15:53:05 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:53:05 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:53:05 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:53:05 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:53:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:53:05 [notice] 1#1: start worker processes
+2022/03/02 15:53:05 [notice] 1#1: start worker process 24
+2022/03/02 15:53:05 [notice] 1#1: start worker process 25
+2022/03/02 15:53:05 [notice] 1#1: start worker process 26
+2022/03/02 15:53:05 [notice] 1#1: start worker process 27
+2022/03/02 15:53:38 [error] 26#26: *1 open() "/var/www/page" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /page HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:53:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:53:51 [notice] 25#25: gracefully shutting down
+2022/03/02 15:53:51 [notice] 25#25: exiting
+2022/03/02 15:53:51 [notice] 25#25: exit
+2022/03/02 15:53:51 [notice] 27#27: gracefully shutting down
+2022/03/02 15:53:51 [notice] 24#24: gracefully shutting down
+2022/03/02 15:53:51 [notice] 27#27: exiting
+2022/03/02 15:53:51 [notice] 24#24: exiting
+2022/03/02 15:53:51 [notice] 26#26: gracefully shutting down
+2022/03/02 15:53:51 [notice] 27#27: exit
+2022/03/02 15:53:51 [notice] 24#24: exit
+2022/03/02 15:53:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:53:51 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:53:51 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:53:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:53:51 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/02 15:53:51 [notice] 1#1: worker process 27 exited with code 0
+2022/03/02 15:53:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:53:57 [error] 26#26: *2 open() "/var/www/page" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /page HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:53:57 [notice] 26#26: exiting
+2022/03/02 15:53:57 [notice] 26#26: exit
+2022/03/02 15:53:57 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:53:57 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:53:57 [notice] 1#1: exit
+2022/03/02 15:53:58 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:53:58 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:53:58 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:53:58 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:53:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:53:58 [notice] 1#1: start worker processes
+2022/03/02 15:53:58 [notice] 1#1: start worker process 22
+2022/03/02 15:53:58 [notice] 1#1: start worker process 23
+2022/03/02 15:53:58 [notice] 1#1: start worker process 24
+2022/03/02 15:53:58 [notice] 1#1: start worker process 25
+2022/03/02 15:53:58 [error] 22#22: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/page"
+2022/03/02 15:53:59 [error] 22#22: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /favicon.ico HTTP/1.1", host: "sites.local:8083", referrer: "http://sites.local:8083/page"
+2022/03/02 15:54:42 [error] 22#22: *5 open() "/var/www/se" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /se HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:54:47 [error] 22#22: *5 open() "/var/www/yrtyrtyrty" failed (2: No such file or directory), client: 172.26.0.1, server: sites.local, request: "GET /yrtyrtyrty HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:55:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:55:26 [notice] 22#22: gracefully shutting down
+2022/03/02 15:55:26 [notice] 25#25: gracefully shutting down
+2022/03/02 15:55:26 [notice] 25#25: exiting
+2022/03/02 15:55:26 [notice] 22#22: exiting
+2022/03/02 15:55:26 [notice] 24#24: gracefully shutting down
+2022/03/02 15:55:26 [notice] 24#24: exiting
+2022/03/02 15:55:26 [notice] 25#25: exit
+2022/03/02 15:55:26 [notice] 22#22: exit
+2022/03/02 15:55:26 [notice] 24#24: exit
+2022/03/02 15:55:26 [notice] 23#23: gracefully shutting down
+2022/03/02 15:55:26 [notice] 23#23: exiting
+2022/03/02 15:55:26 [notice] 23#23: exit
+2022/03/02 15:55:26 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:55:26 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:55:26 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:55:26 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:55:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:55:26 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:55:26 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:55:26 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:55:26 [notice] 1#1: exit
+2022/03/02 15:55:26 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:55:26 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:55:26 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:55:26 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:55:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:55:26 [notice] 1#1: start worker processes
+2022/03/02 15:55:26 [notice] 1#1: start worker process 22
+2022/03/02 15:55:26 [notice] 1#1: start worker process 23
+2022/03/02 15:55:26 [notice] 1#1: start worker process 24
+2022/03/02 15:55:26 [notice] 1#1: start worker process 25
+2022/03/02 15:56:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:56:00 [notice] 23#23: gracefully shutting down
+2022/03/02 15:56:00 [notice] 22#22: gracefully shutting down
+2022/03/02 15:56:00 [notice] 24#24: gracefully shutting down
+2022/03/02 15:56:00 [notice] 23#23: exiting
+2022/03/02 15:56:00 [notice] 22#22: exiting
+2022/03/02 15:56:00 [notice] 25#25: gracefully shutting down
+2022/03/02 15:56:00 [notice] 24#24: exiting
+2022/03/02 15:56:00 [notice] 23#23: exit
+2022/03/02 15:56:00 [notice] 22#22: exit
+2022/03/02 15:56:00 [notice] 24#24: exit
+2022/03/02 15:56:00 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/02 15:56:00 [notice] 1#1: worker process 22 exited with code 0
+2022/03/02 15:56:00 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:56:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:56:00 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:56:00 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:56:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:56:03 [notice] 25#25: exiting
+2022/03/02 15:56:03 [notice] 25#25: exit
+2022/03/02 15:56:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:56:03 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:56:03 [notice] 1#1: exit
+2022/03/02 15:56:04 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:56:04 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:56:04 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:56:04 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:56:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:56:04 [notice] 1#1: start worker processes
+2022/03/02 15:56:04 [notice] 1#1: start worker process 22
+2022/03/02 15:56:04 [notice] 1#1: start worker process 23
+2022/03/02 15:56:04 [notice] 1#1: start worker process 24
+2022/03/02 15:56:04 [notice] 1#1: start worker process 25
+2022/03/02 15:56:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:56:38 [notice] 25#25: gracefully shutting down
+2022/03/02 15:56:38 [notice] 22#22: gracefully shutting down
+2022/03/02 15:56:38 [notice] 23#23: gracefully shutting down
+2022/03/02 15:56:38 [notice] 25#25: exiting
+2022/03/02 15:56:38 [notice] 23#23: exiting
+2022/03/02 15:56:38 [notice] 24#24: gracefully shutting down
+2022/03/02 15:56:38 [notice] 24#24: exiting
+2022/03/02 15:56:38 [notice] 25#25: exit
+2022/03/02 15:56:38 [notice] 23#23: exit
+2022/03/02 15:56:38 [notice] 24#24: exit
+2022/03/02 15:56:38 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:56:38 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:56:38 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:56:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:56:38 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:56:38 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:56:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:56:48 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:56:48 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:56:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:56:48 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:56:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:56:48 [notice] 1#1: start worker processes
+2022/03/02 15:56:48 [notice] 1#1: start worker process 23
+2022/03/02 15:56:48 [notice] 1#1: start worker process 24
+2022/03/02 15:56:48 [notice] 1#1: start worker process 25
+2022/03/02 15:56:48 [notice] 1#1: start worker process 26
+2022/03/02 15:57:00 [error] 24#24: *5 rewrite or internal redirection cycle while internally redirecting to "index.php", client: 172.26.0.1, server: sites.local, request: "GET /indexes.php HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:57:01 [error] 24#24: *6 rewrite or internal redirection cycle while internally redirecting to "index.php", client: 172.26.0.1, server: sites.local, request: "GET /indexes.php HTTP/1.1", host: "sites.local:8083"
+2022/03/02 15:57:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/02 15:57:44 [notice] 23#23: gracefully shutting down
+2022/03/02 15:57:44 [notice] 26#26: gracefully shutting down
+2022/03/02 15:57:44 [notice] 23#23: exiting
+2022/03/02 15:57:44 [notice] 26#26: exiting
+2022/03/02 15:57:44 [notice] 23#23: exit
+2022/03/02 15:57:44 [notice] 26#26: exit
+2022/03/02 15:57:44 [notice] 25#25: gracefully shutting down
+2022/03/02 15:57:44 [notice] 25#25: exiting
+2022/03/02 15:57:44 [notice] 25#25: exit
+2022/03/02 15:57:44 [notice] 24#24: gracefully shutting down
+2022/03/02 15:57:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/02 15:57:44 [notice] 1#1: worker process 23 exited with code 0
+2022/03/02 15:57:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:57:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/02 15:57:44 [notice] 1#1: worker process 26 exited with code 0
+2022/03/02 15:57:44 [notice] 1#1: worker process 25 exited with code 0
+2022/03/02 15:57:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/02 15:57:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/02 15:57:51 [notice] 24#24: exiting
+2022/03/02 15:57:51 [notice] 24#24: exit
+2022/03/02 15:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/02 15:57:51 [notice] 1#1: worker process 24 exited with code 0
+2022/03/02 15:57:51 [notice] 1#1: exit
+2022/03/02 15:57:52 [notice] 1#1: using the "epoll" event method
+2022/03/02 15:57:52 [notice] 1#1: nginx/1.20.2
+2022/03/02 15:57:52 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/02 15:57:52 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/02 15:57:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/02 15:57:52 [notice] 1#1: start worker processes
+2022/03/02 15:57:52 [notice] 1#1: start worker process 22
+2022/03/02 15:57:52 [notice] 1#1: start worker process 23
+2022/03/02 15:57:52 [notice] 1#1: start worker process 24
+2022/03/02 15:57:52 [notice] 1#1: start worker process 25
+2022/03/03 09:55:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/03 09:55:14 [notice] 24#24: gracefully shutting down
+2022/03/03 09:55:14 [notice] 23#23: gracefully shutting down
+2022/03/03 09:55:14 [notice] 24#24: exiting
+2022/03/03 09:55:14 [notice] 23#23: exiting
+2022/03/03 09:55:14 [notice] 24#24: exit
+2022/03/03 09:55:14 [notice] 23#23: exit
+2022/03/03 09:55:14 [notice] 25#25: gracefully shutting down
+2022/03/03 09:55:14 [notice] 22#22: gracefully shutting down
+2022/03/03 09:55:14 [notice] 25#25: exiting
+2022/03/03 09:55:14 [notice] 22#22: exiting
+2022/03/03 09:55:14 [notice] 25#25: exit
+2022/03/03 09:55:14 [notice] 22#22: exit
+2022/03/03 09:55:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/03 09:55:14 [notice] 1#1: worker process 24 exited with code 0
+2022/03/03 09:55:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 09:55:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/03 09:55:14 [notice] 1#1: worker process 23 exited with code 0
+2022/03/03 09:55:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 09:55:14 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/03 09:55:14 [notice] 1#1: worker process 22 exited with code 0
+2022/03/03 09:55:14 [notice] 1#1: worker process 25 exited with code 0
+2022/03/03 09:55:14 [notice] 1#1: exit
+2022/03/03 09:55:15 [notice] 1#1: using the "epoll" event method
+2022/03/03 09:55:15 [notice] 1#1: nginx/1.20.2
+2022/03/03 09:55:15 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/03 09:55:15 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/03 09:55:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/03 09:55:15 [notice] 1#1: start worker processes
+2022/03/03 09:55:15 [notice] 1#1: start worker process 23
+2022/03/03 09:55:15 [notice] 1#1: start worker process 24
+2022/03/03 09:55:15 [notice] 1#1: start worker process 25
+2022/03/03 09:55:15 [notice] 1#1: start worker process 26
+2022/03/03 10:10:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/03 10:10:45 [notice] 23#23: gracefully shutting down
+2022/03/03 10:10:45 [notice] 25#25: gracefully shutting down
+2022/03/03 10:10:45 [notice] 24#24: gracefully shutting down
+2022/03/03 10:10:45 [notice] 23#23: exiting
+2022/03/03 10:10:45 [notice] 25#25: exiting
+2022/03/03 10:10:45 [notice] 24#24: exiting
+2022/03/03 10:10:45 [notice] 23#23: exit
+2022/03/03 10:10:45 [notice] 25#25: exit
+2022/03/03 10:10:45 [notice] 24#24: exit
+2022/03/03 10:10:45 [notice] 26#26: gracefully shutting down
+2022/03/03 10:10:45 [notice] 26#26: exiting
+2022/03/03 10:10:45 [notice] 26#26: exit
+2022/03/03 10:10:45 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/03 10:10:45 [notice] 1#1: worker process 24 exited with code 0
+2022/03/03 10:10:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:10:45 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/03 10:10:45 [notice] 1#1: worker process 23 exited with code 0
+2022/03/03 10:10:45 [notice] 1#1: worker process 26 exited with code 0
+2022/03/03 10:10:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:10:45 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/03 10:10:45 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/03 10:10:45 [notice] 1#1: worker process 25 exited with code 0
+2022/03/03 10:10:45 [notice] 1#1: exit
+2022/03/03 10:10:46 [notice] 1#1: using the "epoll" event method
+2022/03/03 10:10:46 [notice] 1#1: nginx/1.20.2
+2022/03/03 10:10:46 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/03 10:10:46 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/03 10:10:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/03 10:10:46 [notice] 1#1: start worker processes
+2022/03/03 10:10:46 [notice] 1#1: start worker process 22
+2022/03/03 10:10:46 [notice] 1#1: start worker process 23
+2022/03/03 10:10:46 [notice] 1#1: start worker process 24
+2022/03/03 10:10:46 [notice] 1#1: start worker process 25
+2022/03/03 10:11:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/03 10:11:24 [notice] 22#22: gracefully shutting down
+2022/03/03 10:11:24 [notice] 24#24: gracefully shutting down
+2022/03/03 10:11:24 [notice] 22#22: exiting
+2022/03/03 10:11:24 [notice] 24#24: exiting
+2022/03/03 10:11:24 [notice] 23#23: gracefully shutting down
+2022/03/03 10:11:24 [notice] 22#22: exit
+2022/03/03 10:11:24 [notice] 24#24: exit
+2022/03/03 10:11:24 [notice] 25#25: gracefully shutting down
+2022/03/03 10:11:24 [notice] 25#25: exiting
+2022/03/03 10:11:24 [notice] 25#25: exit
+2022/03/03 10:11:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/03 10:11:25 [notice] 1#1: worker process 24 exited with code 0
+2022/03/03 10:11:25 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:11:25 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/03 10:11:25 [notice] 1#1: worker process 22 exited with code 0
+2022/03/03 10:11:25 [notice] 1#1: worker process 25 exited with code 0
+2022/03/03 10:11:25 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:11:25 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/03 10:11:35 [notice] 1#1: using the "epoll" event method
+2022/03/03 10:11:35 [notice] 1#1: nginx/1.20.2
+2022/03/03 10:11:35 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/03 10:11:35 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/03 10:11:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/03 10:11:35 [notice] 1#1: start worker processes
+2022/03/03 10:11:35 [notice] 1#1: start worker process 23
+2022/03/03 10:11:35 [notice] 1#1: start worker process 24
+2022/03/03 10:11:35 [notice] 1#1: start worker process 25
+2022/03/03 10:11:35 [notice] 1#1: start worker process 26
+2022/03/03 10:11:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/03 10:11:35 [notice] 23#23: gracefully shutting down
+2022/03/03 10:11:35 [notice] 25#25: gracefully shutting down
+2022/03/03 10:11:35 [notice] 26#26: gracefully shutting down
+2022/03/03 10:11:35 [notice] 24#24: gracefully shutting down
+2022/03/03 10:11:35 [notice] 23#23: exiting
+2022/03/03 10:11:35 [notice] 25#25: exiting
+2022/03/03 10:11:35 [notice] 26#26: exiting
+2022/03/03 10:11:35 [notice] 24#24: exiting
+2022/03/03 10:11:35 [notice] 25#25: exit
+2022/03/03 10:11:35 [notice] 23#23: exit
+2022/03/03 10:11:35 [notice] 26#26: exit
+2022/03/03 10:11:35 [notice] 24#24: exit
+2022/03/03 10:11:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/03 10:11:35 [notice] 1#1: worker process 23 exited with code 0
+2022/03/03 10:11:35 [notice] 1#1: worker process 24 exited with code 0
+2022/03/03 10:11:35 [notice] 1#1: worker process 26 exited with code 0
+2022/03/03 10:11:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:11:35 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/03 10:11:35 [notice] 1#1: worker process 25 exited with code 0
+2022/03/03 10:11:35 [notice] 1#1: exit
+2022/03/03 10:11:36 [notice] 1#1: using the "epoll" event method
+2022/03/03 10:11:36 [notice] 1#1: nginx/1.20.2
+2022/03/03 10:11:36 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/03 10:11:36 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/03 10:11:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/03 10:11:36 [notice] 1#1: start worker processes
+2022/03/03 10:11:36 [notice] 1#1: start worker process 23
+2022/03/03 10:11:36 [notice] 1#1: start worker process 24
+2022/03/03 10:11:36 [notice] 1#1: start worker process 25
+2022/03/03 10:11:36 [notice] 1#1: start worker process 26
+2022/03/03 10:12:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/03 10:12:05 [notice] 26#26: gracefully shutting down
+2022/03/03 10:12:05 [notice] 26#26: exiting
+2022/03/03 10:12:05 [notice] 26#26: exit
+2022/03/03 10:12:05 [notice] 23#23: gracefully shutting down
+2022/03/03 10:12:05 [notice] 23#23: exiting
+2022/03/03 10:12:05 [notice] 25#25: gracefully shutting down
+2022/03/03 10:12:05 [notice] 25#25: exiting
+2022/03/03 10:12:05 [notice] 23#23: exit
+2022/03/03 10:12:05 [notice] 25#25: exit
+2022/03/03 10:12:05 [notice] 24#24: gracefully shutting down
+2022/03/03 10:12:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/03 10:12:05 [notice] 1#1: worker process 25 exited with code 0
+2022/03/03 10:12:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:12:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/03 10:12:05 [notice] 1#1: worker process 26 exited with code 0
+2022/03/03 10:12:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:12:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/03 10:12:05 [notice] 1#1: worker process 23 exited with code 0
+2022/03/03 10:12:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:12:09 [notice] 24#24: exiting
+2022/03/03 10:12:09 [notice] 24#24: exit
+2022/03/03 10:12:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/03 10:12:09 [notice] 1#1: worker process 24 exited with code 0
+2022/03/03 10:12:09 [notice] 1#1: exit
+2022/03/03 10:12:10 [notice] 1#1: using the "epoll" event method
+2022/03/03 10:12:10 [notice] 1#1: nginx/1.20.2
+2022/03/03 10:12:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/03 10:12:10 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/03 10:12:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/03 10:12:10 [notice] 1#1: start worker processes
+2022/03/03 10:12:10 [notice] 1#1: start worker process 23
+2022/03/03 10:12:10 [notice] 1#1: start worker process 24
+2022/03/03 10:12:10 [notice] 1#1: start worker process 25
+2022/03/03 10:12:10 [notice] 1#1: start worker process 26
+2022/03/03 10:17:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/03 10:17:11 [notice] 24#24: gracefully shutting down
+2022/03/03 10:17:11 [notice] 25#25: gracefully shutting down
+2022/03/03 10:17:11 [notice] 23#23: gracefully shutting down
+2022/03/03 10:17:11 [notice] 24#24: exiting
+2022/03/03 10:17:11 [notice] 25#25: exiting
+2022/03/03 10:17:11 [notice] 23#23: exiting
+2022/03/03 10:17:11 [notice] 23#23: exit
+2022/03/03 10:17:11 [notice] 24#24: exit
+2022/03/03 10:17:11 [notice] 25#25: exit
+2022/03/03 10:17:11 [notice] 26#26: gracefully shutting down
+2022/03/03 10:17:11 [notice] 26#26: exiting
+2022/03/03 10:17:11 [notice] 26#26: exit
+2022/03/03 10:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/03 10:17:11 [notice] 1#1: worker process 23 exited with code 0
+2022/03/03 10:17:11 [notice] 1#1: worker process 24 exited with code 0
+2022/03/03 10:17:11 [notice] 1#1: worker process 25 exited with code 0
+2022/03/03 10:17:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/03 10:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/03 10:17:11 [notice] 1#1: worker process 26 exited with code 0
+2022/03/03 10:17:11 [notice] 1#1: exit
+2022/03/03 10:17:12 [notice] 1#1: using the "epoll" event method
+2022/03/03 10:17:12 [notice] 1#1: nginx/1.20.2
+2022/03/03 10:17:12 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/03/03 10:17:12 [notice] 1#1: OS: Linux 5.4.0-100-generic
+2022/03/03 10:17:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/03 10:17:12 [notice] 1#1: start worker processes
+2022/03/03 10:17:12 [notice] 1#1: start worker process 29
+2022/03/03 10:17:12 [notice] 1#1: start worker process 30
+2022/03/03 10:17:12 [notice] 1#1: start worker process 31
+2022/03/03 10:17:12 [notice] 1#1: start worker process 32
